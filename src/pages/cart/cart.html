@@ -1,0 +1,63 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>{{ 'cart' | translate }}
+            <span float-end>
+                <ion-icon name="md-close" class="close-icon" (click)="dismiss()"></ion-icon>
+            </span>
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="bg-light">
+    <div class="your-cart bg-thime">
+        <ion-card *ngFor="let item of cartItems">
+            <ion-card-content>
+                <ion-row>
+                    <ion-col col-3>
+                        <div *ngIf="item.product.images && item.product.images.length" class="img-box">
+                            <img data-src="{{item.product.images[0].src}}">
+                        </div>
+                        <div *ngIf="item.product.images == null || item.product.images.length == 0" class="img-box">
+                            <img src="assets/imgs/suit_PNG8132.png">
+                        </div>
+                    </ion-col>
+                    <ion-col col-9>
+                        <h4>{{item.product.name}}
+                            <ion-icon name="ios-trash-outline" class="icon text-light" (click)="removeItem(item.product)"></ion-icon>
+                        </h4>
+                        <div class="price shadow-bottom bg-white">
+                            <div class="d-flex">
+                                <p class="text-sky" [innerHTML]="item.product.sale_price_html">
+                                </p>
+                                <div class="d-flex btn-grup">
+
+                                        <div class="btn text-white bg-thime green-shadow " (click)="decrementItem(item.product)">
+                                                -
+                                            </div>
+                                    <span>{{item.quantity}}</span>
+                                    
+                                    <div class="btn text-white bg-thime green-shadow " (click)="incrementItem(item.product)">
+                                            +
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ion-col>
+                </ion-row>
+            </ion-card-content>
+        </ion-card>
+
+
+        <ion-row class="checkout">
+            <ion-col col-6>
+                <h6 class="text-white">
+                    {{ 'total' | translate }}
+                    <span [innerHTML]="total_html"></span>
+                </h6>
+            </ion-col>
+            <ion-col col-6>
+                <button ion-button full class="bg-white btn-round btn-text  text-sky btn-shadow" (click)="proceedCheckout()">{{checkoutText}}</button>
+            </ion-col>
+        </ion-row>
+    </div>
+</ion-content>

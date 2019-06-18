@@ -1,0 +1,59 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            <p text-left style="width:100%">{{config.appName}}</p>
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <div class="form" padding-left padding-right>
+        <p text-center padding-bottom margin-bottom>{{ 'sign_in_title' | translate : {appName:config.appName} }}</p>
+        <ion-list>
+            <ion-item>
+                <ion-label>{{ 'username' | translate }}</ion-label>
+                <ion-input type="tel" text-right placeholder="{{ 'phone' | translate }}" [(ngModel)]="credentials.username"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label>{{ 'password' | translate }}</ion-label>
+                <ion-input type="password" text-right placeholder="{{ 'password' | translate }}" [(ngModel)]="credentials.password"></ion-input>
+            </ion-item>
+        </ion-list>
+        <button ion-button full class="bg-thime btn-round btn-text" (click)="singIn()">{{ 'continue' | translate }}</button>
+        <br>
+        <p text-center [innerHTML]="authError" style="margin: 0;"></p>
+        <p text-center (click)="passwordPage()">
+            {{ 'password_forgot' | translate }}
+        </p>
+
+        <p text-center style="margin-bottom:15px">{{ 'or_continue_with' | translate }}</p>
+        <ion-grid no-padding>
+            <ion-row>
+                <ion-col col-6 style="padding-right:7px">
+                    <button ion-button icon-left full clear no-padding class="btn-social btn-facebook" (click)="loginFB()">
+                        <!-- <ion-icon class="icon">
+                            <img src="assets/imgs/fb.png">
+                        </ion-icon>
+                        <span>Facebook</span> -->
+                        <img src="assets/imgs/fb.png">
+                    </button>
+                </ion-col>
+                <ion-col col-6 style="padding-left:7px">
+                    <button ion-button full icon-left clear no-padding class="btn-social btn-google" (click)="loginGoogle()">
+                        <!-- <ion-icon class="icon">
+                            <img src="assets/imgs/google.png">
+                        </ion-icon>
+                        <span>Google</span> -->
+                        <img src="assets/imgs/google.png">
+                    </button>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+
+    </div>
+    <div class="fixed-btn">
+        <p text-center>{{ 'not_registered' | translate }}</p>
+        <button ion-button full class="bg-white btn-round btn-text" (click)="signupPage()">{{ 'do_register' | translate
+            }}</button>
+    </div>
+</ion-content>

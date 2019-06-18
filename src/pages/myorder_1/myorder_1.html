@@ -1,0 +1,238 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+   <img src="assets/imgs/ic_menu.png">
+    </button>
+        <ion-title>My Order
+            <div class="icon-box">
+                <img src="assets/imgs/search.png" (click)="searchPage()">
+                <img src="assets/imgs/ic_my_cart.png" (click)="cartPage()">
+            </div>
+        </ion-title>
+    </ion-navbar>
+    <ion-toolbar no-border-top class="tab-bar">
+        <ion-segment [(ngModel)]="account">
+            <ion-segment-button value="profile">
+                Peading
+            </ion-segment-button>
+            <ion-segment-button value="card">
+                Past Orders
+            </ion-segment-button>
+        </ion-segment>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="bg-light">
+    <div [ngSwitch]="account">
+        <div *ngSwitchCase="'profile'" class="profile-section">
+            <ion-card class="border-bottom-none border" style="position: relative;">
+                <ion-card-header>
+                    <p class="left-side">
+                        <span class="text-light">Ordered ID</span> 2513254112
+                        <br>
+                        <span class="text-light">Placed on</span> 17-march-17
+                    </p>
+                    <p class="right-side text-sky">
+                        Cancel Order
+                    </p>
+                </ion-card-header>
+                <ion-card-content>
+                    <ion-row>
+                        <ion-col col-7>
+                            <h4>Fresh Onion Medium Size Apox 10 Pcs in 1 kg
+                            </h4>
+                            <small><span class="text-light">Quantity:</span> 1</small>
+                            <p>
+                                5.80 $
+                                <small class="text-light">via COD</small>
+                            </p>
+                            <small><span class="text-light">Tracking Status on</span> 15-March'17</small>
+                            <button ion-button full class="bg-green btn-round  btn-text">Reached Hub,New Delhi</button>
+                        </ion-col>
+                        <ion-col col-5>
+                            <p class="text-light small-text" text-right><span>Weight 5 kg</span></p>
+                            <div class="img-box">
+                                <img src="assets/imgs/veg-2.jpg">
+                            </div>
+                        </ion-col>
+                    </ion-row>
+                </ion-card-content>
+            </ion-card>
+
+            <div class="order-info border-top-none border">
+                <div class="order-container">
+                    <div class="status active">
+                        <p padding-left padding-right>Order<br>Placed</p>
+                        <ion-icon name="md-radio-button-on"></ion-icon>
+                        <p style="color: #555">12:05pm<br>12 May 17</p>
+                    </div>
+                    <div class="status active">
+                        <p>
+                            Dispatched<br>from Bangalore
+                        </p>
+                        <ion-icon name="md-radio-button-on"></ion-icon>
+                        <p style="color: #555">12:05pm<br>12 May 17</p>
+                    </div>
+                    <div class="status active">
+                        <p>
+                            Reached Hub <br>New Delhi
+                        </p>
+                        <ion-icon name="md-radio-button-on"></ion-icon>
+                        <p>12:05pm<br>12 May 17</p>
+                    </div>
+                    <div class="status">
+                        <p>
+                            Out for<br>Delivery
+                        </p>
+                        <ion-icon name="md-radio-button-on"></ion-icon>
+                        <p style="color: #555">12:05pm<br>12 May 17</p>
+                    </div>
+                    <div class="status">
+                        <p>
+                            Item<br>Delivery
+                        </p>
+                        <ion-icon name="md-radio-button-on"></ion-icon>
+                        <p style="color: #555">12:05pm<br>12 May 17</p>
+                    </div>
+                </div>
+            </div>
+            <ion-card>
+                <ion-card-header>
+                    <p class="left-side">
+                        <span class="text-light">Ordered ID</span> 2513254112
+                        <br>
+                        <span class="text-light">Placed on</span> 17-march-17
+                    </p>
+                    <p class="right-side text-sky">
+                        Return Product
+                    </p>
+                </ion-card-header>
+                <ion-card-content>
+                    <ion-row>
+                        <ion-col col-7>
+                            <h4>Fresh Onion Medium Size Apox 10 Pcs in 1 kg</h4>
+                            <small><span class="text-light">Quantity:</span> 1</small>
+                            <p>
+                                5.80 $
+                                <small class="text-light">via COD</small>
+                            </p>
+                            <small><span class="text-light">Delivered on </span> 05-May'17</small>
+                            <button ion-button full class="bg-thime btn-round  btn-text">Rate Now<ion-icon name="ios-arrow-forward"></ion-icon></button>
+                        </ion-col>
+                        <ion-col col-5>
+                            <p class="text-light small-text" text-right><span>Weight 5 kg</span></p>
+                            <div class="img-box">
+                                <img src="assets/imgs/veg-1.jpg">
+                            </div>
+                        </ion-col>
+                    </ion-row>
+                </ion-card-content>
+            </ion-card>
+        </div>
+
+        <div *ngSwitchCase="'card'" class="card-section bg-light">
+            <ion-card class="border-bottom-none border" style="position: relative;">
+                <ion-card-header>
+                    <p class="left-side">
+                        <span class="text-light">Ordered ID</span> 2513254112
+                        <br>
+                        <span class="text-light">Placed on</span> 17-march-17
+                    </p>
+                    <p class="right-side text-sky">
+                        Cancel Order
+                    </p>
+                </ion-card-header>
+                <ion-card-content>
+                    <ion-row>
+                        <ion-col col-7>
+                            <h4>Fresh Onion Medium Size Apox 10 Pcs in 1 kg</h4>
+                            <small><span class="text-light">Quantity:</span> 1</small>
+                            <p>
+                                5.80 $
+                                <small class="text-light">via COD</small>
+                            </p>
+                            <small><span class="text-light">Tracking Status on</span> 15-March'17</small>
+                            <button ion-button full class="bg-green btn-round  btn-text">Reached Hub,New Delhi</button>
+                        </ion-col>
+                        <ion-col col-5>
+                            <p class="text-light small-text" text-right><span>Weight 5 kg</span></p>
+                            <div class="img-box">
+                                <img src="assets/imgs/veg-1.jpg">
+                            </div>
+                        </ion-col>
+                    </ion-row>
+                </ion-card-content>
+            </ion-card>
+
+            <div class="order-info border-top-none border">
+                <div class="order-container">
+                    <div class="status active">
+                        <p padding-left padding-right>Order<br>Placed</p>
+                        <ion-icon name="md-radio-button-on"></ion-icon>
+                        <p style="color: #555">12:05pm<br>12 May 17</p>
+                    </div>
+                    <div class="status active">
+                        <p>
+                            Dispatched<br>from Bangalore
+                        </p>
+                        <ion-icon name="md-radio-button-on"></ion-icon>
+                        <p style="color: #555">12:05pm<br>12 May 17</p>
+                    </div>
+                    <div class="status active">
+                        <p>
+                            Reached Hub <br>New Delhi
+                        </p>
+                        <ion-icon name="md-radio-button-on"></ion-icon>
+                        <p>12:05pm<br>12 May 17</p>
+                    </div>
+                    <div class="status">
+                        <p>
+                            Out for<br>Delivery
+                        </p>
+                        <ion-icon name="md-radio-button-on"></ion-icon>
+                        <p style="color: #555">12:05pm<br>12 May 17</p>
+                    </div>
+                    <div class="status">
+                        <p>
+                            Item<br>Delivery
+                        </p>
+                        <ion-icon name="md-radio-button-on"></ion-icon>
+                        <p style="color: #555">12:05pm<br>12 May 17</p>
+                    </div>
+                </div>
+            </div>
+            <ion-card>
+                <ion-card-header>
+                    <p class="left-side">
+                        <span class="text-light">Ordered ID</span> 2513254112
+                        <br>
+                        <span class="text-light">Placed on</span> 17-march-17
+                    </p>
+                    <p class="right-side text-sky">
+                        Return Product
+                    </p>
+                </ion-card-header>
+                <ion-card-content>
+                    <ion-row>
+                        <ion-col col-7>
+                            <h4>Fresh Onion Medium Size Apox 10 Pcs in 1 kg</h4>
+                            <small><span class="text-light">Quantity:</span> 1</small>
+                            <p>
+                                5.80 $
+                                <small class="text-light">via COD</small>
+                            </p>
+                            <small><span class="text-light">Delivered on </span> 05-May'17</small>
+                            <button ion-button full class="bg-thime btn-round  btn-text">Rate Now<ion-icon name="ios-arrow-forward"></ion-icon></button>
+                        </ion-col>
+                        <ion-col col-5>
+                            <p class="text-light small-text" text-right><span>Weight 5 kg</span></p>
+                            <div class="img-box">
+                                <img src="assets/imgs/veg-2.jpg">
+                            </div>
+                        </ion-col>
+                    </ion-row>
+                </ion-card-content>
+            </ion-card>
+        </div>
+    </div>
+</ion-content>

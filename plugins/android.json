@@ -1,0 +1,92 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com.paypal.cordova.mobilesdk": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-android-support-gradle-release": {
+      "ANDROID_SUPPORT_VERSION": "27.+",
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-plugin-facebook4": {
+      "APP_ID": "2353289758227931",
+      "APP_NAME": "EasyVizag",
+      "FACEBOOK_HYBRID_APP_EVENTS": "false",
+      "FACEBOOK_ANDROID_SDK_VERSION": "4.40.0",
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-plugin-filechooser": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-plugin-filepath": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-plugin-firebase": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-plugin-firebase-authentication": {
+      "FIREBASE_AUTH_VERSION": "2.0.0",
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-plugin-googleplus": {
+      "PLAY_SERVICES_VERSION": "11.8.0",
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    }
+  },
+  "dependent_plugins": {
+    "card.io.cordova.mobilesdk": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-support-android-plugin": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "cordova-support-google-services": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    },
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.easy.vizag"
+    }
+  }
+}

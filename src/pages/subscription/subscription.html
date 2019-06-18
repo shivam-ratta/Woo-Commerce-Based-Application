@@ -1,0 +1,77 @@
+<!--
+  Generated template for the SubscriptionPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{title}}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-slides autoplay="2000" loop="true" pager *ngIf="ptype=='chit'" dir="ltr"> 
+    <span *ngFor="let slide of SectionBanner; let i = index">
+      <ion-slide> 
+        <img [src]="slide.image" class="slide-image" /> </ion-slide>
+    </span> 
+  </ion-slides>
+
+  <ion-slides autoplay="2000" loop="true" pager *ngIf="ptype=='subscription'" dir="ltr"> 
+    <span *ngFor="let slide of SubscriptionBanner; let i = index">
+      <ion-slide> 
+        <img [src]="slide.image" class="slide-image" /> </ion-slide>
+    </span> 
+  </ion-slides>
+  <div class="form" padding-left padding-right>
+    <p text-center padding-bottom margin-bottom *ngIf="ptype=='subscription'">Your Monthly Family Subscription</p>
+    <p text-center padding-bottom margin-bottom *ngIf="ptype=='chit'">Your Annual Family Chit Subscription</p>
+    <ion-list>
+      <ion-item>
+        <ion-label>Enter Full Name</ion-label>
+        <ion-input type="text" text-right placeholder="Your Name" [(ngModel)]="name"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Enter Email ID</ion-label>
+        <ion-input type="email" text-right placeholder="Email Address" [(ngModel)]="email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Enter Phone</ion-label>
+        <ion-input type="tel" text-right placeholder="Your Mobile Number" [(ngModel)]="phone"></ion-input>
+      </ion-item>
+      <ion-item *ngIf="ptype!='subscription'">
+        <ion-label>Chit Number</ion-label>
+        <ion-input type="tel" text-right placeholder="Enter Chit Number"  [(ngModel)]="chitnumber"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label stacked>Enter Your Address</ion-label>
+        <ion-textarea text-left [(ngModel)]="address" class="tarea"></ion-textarea>
+      </ion-item>
+      <ion-item *ngIf="ptype=='subscription'">
+        <ion-label>Select Delivery Date</ion-label>
+        <ion-datetime text-right displayFormat="MMM DD, YYYY" [(ngModel)]="dtime"></ion-datetime>
+        <ion-icon name="calendar" item-right></ion-icon>
+      </ion-item> 
+      <ion-item *ngIf="ptype=='subscription'">
+        <ion-label>Select Delivery Time</ion-label>
+        <ion-datetime text-right displayFormat="HH:mm" [(ngModel)]="dtime2"></ion-datetime>
+        <ion-icon name="calendar" item-right></ion-icon>
+      </ion-item> 
+      <ion-item *ngIf="ptype=='subscription'">
+        <ion-label stacked>Your Monthly Requirment List</ion-label>
+        <ion-textarea text-left [(ngModel)]="desc" class="tarea"></ion-textarea>
+      </ion-item> 
+      <button ion-item class="btt" (click)="file()" *ngIf="ptype=='subscription'"> {{dlabel}} <ion-icon
+          name="attach" item-end></ion-icon> </button>
+    </ion-list> 
+    <button ion-button full large class="bg-thime btn-round btn-text" (click)="send()" *ngIf="ptype=='subscription'">Subscribe
+      Now</button> 
+      
+      <button ion-button full large class="bg-thime btn-round btn-text" (click)="callAtom()" *ngIf="ptype=='chit'">Pay
+      &#8377;300</button>
+
+
+    <p text-center>By Subscribing I agree to terms & conditions</p>
+  </div>
+</ion-content>

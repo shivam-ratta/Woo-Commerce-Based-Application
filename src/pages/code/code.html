@@ -1,0 +1,7 @@
+<ion-content class="bg-light">
+    <div class="code">
+        <h2>{{ 'coupon_code' | translate }}</h2>
+        <ion-input type="text" value="" [(ngModel)]="cCode" placeholder="{{ 'placeholder_coupon' | translate }}"></ion-input>
+        <button ion-button full class="bg-thime btn-round btn-text" (click)="checkCode()">{{ 'submit' | translate }}</button>
+    </div>
+</ion-content>

@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+     <img src="assets/imgs/ic_menu.png">
+    </button>
+        <ion-title>Select Locaton</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <img src="assets/imgs/map.jpg" class="map">
+    <div class="search-bar">
+        <ion-searchbar (ionInput)="getItems($event)" placeholder="Search Locaton"></ion-searchbar>
+        <ion-icon name="md-locate" class="location_icon"></ion-icon>
+    </div>
+    <div class="btn-fix-bottom">
+        <button ion-button full class="bg-green btn-round green-shadow btn-text" (click)="homePage()">Continue</button>
+    </div>
+</ion-content>

@@ -1,0 +1,37 @@
+-injars 'C:\ionic\Grocer\platforms\android\app\build\intermediates\transforms\jarMerging\release\0.jar'
+-outjars 'C:\ionic\Grocer\platforms\android\app\build\intermediates\multi-dex\release\componentClasses.jar'
+
+-libraryjars 'C:\Users\Alcatraj\AppData\Local\Android\android-sdk\build-tools\27.0.3\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'C:\ionic\Grocer\platforms\android\app\build\intermediates\multi-dex\release\components.flags'
+
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

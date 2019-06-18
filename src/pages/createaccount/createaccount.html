@@ -1,0 +1,56 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>{{ 'register_heading' | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <div class="form" padding-left padding-right>
+        <p text-center padding-bottom margin-bottom>{{ 'register_sub_heading' | translate : {appName:config.appName} }}</p>
+        <ion-list>
+            <ion-item>
+                <ion-label>{{ 'address_first_name' | translate }}</ion-label>
+                <ion-input type="text" text-right placeholder="{{ 'field_error_name_first' | translate }}" [(ngModel)]="registerRequest.first_name"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label>{{ 'address_last_name' | translate }}</ion-label>
+                <ion-input type="text" text-right placeholder="{{ 'field_error_name_last' | translate }}" [(ngModel)]="registerRequest.last_name"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label>{{ 'address_country' | translate }}</ion-label>
+                <ion-select [(ngModel)]="countryCode" placeholder="{{ 'select' | translate }}" multiple="false">
+                    <ion-option [value]="91" >
+                        India
+                    </ion-option>
+                </ion-select>
+            </ion-item>
+            <ion-item>
+                <ion-label>{{ 'phone' | translate }}</ion-label>
+                <ion-input type="tel" text-right placeholder="{{ 'field_error_phone' | translate }}" [(ngModel)]="registerRequest.username"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label>{{ 'email' | translate }}</ion-label>
+                <ion-input type="email" text-right placeholder="{{ 'email' | translate }}" [(ngModel)]="registerRequest.email"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label>{{ 'password' | translate }}</ion-label>
+                <ion-input type="password" text-right placeholder="{{ 'password' | translate }}" [(ngModel)]="registerRequest.password"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label>{{ 'password_confirm' | translate }}</ion-label>
+                <ion-input type="password" text-right placeholder="{{ 'password_confirm' | translate }}" [(ngModel)]="registerRequestPasswordConfirm"></ion-input>
+            </ion-item>
+        </ion-list>
+        <p text-center [innerHTML]="authError"></p>
+        <button ion-button full class="bg-thime btn-round btn-text" (click)="register()">{{ 'continue' | translate }}</button>
+
+    </div>
+    <p text-center class="fix-bottom">
+        <small>
+            {{ 'done_register' | translate }}
+            <span class="text-sky" (click)="signinPage()">
+                {{ 'do_sign_in' | translate }}
+            </span>
+        </small>
+    </p>
+</ion-content>

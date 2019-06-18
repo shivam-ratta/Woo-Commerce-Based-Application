@@ -1,0 +1,65 @@
+{
+  "_from": "cordova-plugin-firebase-authentication",
+  "_id": "cordova-plugin-firebase-authentication@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-cu1HjqKr65+kqAsDchvuPLBB0EjJ76aB/Ai1O6B/lWsCQkyuTPCQIO9+8599CSSL71VYgV/8DV5AjVwYS6go6w==",
+  "_location": "/cordova-plugin-firebase-authentication",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-firebase-authentication",
+    "name": "cordova-plugin-firebase-authentication",
+    "escapedName": "cordova-plugin-firebase-authentication",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-firebase-authentication/-/cordova-plugin-firebase-authentication-1.1.2.tgz",
+  "_shasum": "c72b428576aacf2dba1f6fbddd9e743c5d8a58a3",
+  "_spec": "cordova-plugin-firebase-authentication",
+  "_where": "C:\\ionic\\Grocer",
+  "author": {
+    "name": "Maksim Chemerisuk",
+    "email": "chemerisuk@gmail.com",
+    "url": "https://github.com/chemerisuk"
+  },
+  "bugs": {
+    "url": "https://github.com/chemerisuk/cordova-plugin-firebase-authentication/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-firebase-authentication",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova plugin for Firebase Authentication",
+  "homepage": "https://github.com/chemerisuk/cordova-plugin-firebase-authentication#readme",
+  "keywords": [
+    "cordova",
+    "firebase",
+    "authentication",
+    "analytics",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-firebase-authentication",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chemerisuk/cordova-plugin-firebase-authentication.git"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags",
+    "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml"
+  },
+  "version": "1.1.2"
+}

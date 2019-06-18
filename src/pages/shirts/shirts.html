@@ -1,0 +1,42 @@
+<ion-header class="bg-thime">
+    <ion-navbar>
+        <ion-title>
+            <p [innerHTML]="category.name"></p>
+            <div class="icon-box" (click)="cartPage()">
+                <img src="assets/imgs/ic_my_cart.png">
+                <ion-badge>{{cartTotal}}</ion-badge>
+            </div>
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content class="bg-light">
+    <br>
+    <ion-list>
+        <ion-row *ngFor="let products of productsAll">
+            <ion-col col-6 *ngFor="let pro of products">
+                <ion-card>
+                    <ion-card-header>
+                        <h5 (click)="itemdetailPage(pro)">{{pro.name}}</h5>
+                        <!-- <small class="text-light">Grocer market</small> -->
+                        <div *ngIf="pro.images && pro.images.length" class="img-box" (click)="itemdetailPage(pro)">
+                            <img data-src="{{pro.images[0].src}}">
+                        </div>
+                        <div *ngIf="pro.images == null || pro.images.length == 0" class="img-box" (click)="itemdetailPage(pro)">
+                            <img src="assets/imgs/suit_PNG8132.png">
+                        </div>
+                    </ion-card-header>
+                    <ion-card-content>
+                        <p *ngIf="pro.type =='simple' && pro.regular_price!=pro.sale_price" class="price text-light mr-5" [innerHTML]="pro.regular_price_html"></p>
+                        <p *ngIf="pro.type =='simple'" [innerHTML]="pro.sale_price_html"></p>
+                        <p *ngIf="pro.type =='variable'" [innerHTML]="pro.price_html"></p>
+                        <div *ngIf="pro.type =='simple'" class="btn text-white" (click)="addToCart(pro)">{{ 'add' | translate }}</div>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-list>
+    <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+        <ion-infinite-scroll-content></ion-infinite-scroll-content>
+    </ion-infinite-scroll>

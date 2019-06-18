@@ -1,0 +1,158 @@
+<!--
+  Generated template for the ServicesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{title}}</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <span *ngIf="directDrive">
+    <ion-slides autoplay="2000" loop="true" pager *ngIf="directDrive" dir="ltr">
+      <span *ngFor="let slide of SelfDriveVehiclesBanners; let i = index">
+        <ion-slide> <img [src]="slide.image" class="slide-image" />
+        </ion-slide>
+      </span> 
+    </ion-slides>
+  </span>
+  <span *ngIf="household">
+    <ion-slides autoplay="2000" loop="true" pager *ngIf="household" dir="ltr">
+      <span *ngFor="let slide of HouseHoldBanners; let i = index">
+        <ion-slide> <img [src]="slide.image" class="slide-image" />
+         
+        </ion-slide>
+      </span> 
+    </ion-slides>
+  </span>
+
+  <span *ngIf="ptype=='wedding'">
+    <ion-slides autoplay="2000" loop="true" pager *ngIf="ptype=='wedding'" dir="ltr">
+      <span *ngFor="let slide of WeddingEventsBanners; let i = index">
+        <ion-slide> <img [src]="slide.image" class="slide-image" />
+         
+        </ion-slide>
+      </span> 
+    </ion-slides>
+  </span>
+
+  <span *ngIf="ptype=='Real Estate'">
+    <ion-slides autoplay="2000" loop="true" pager *ngIf="ptype=='Real Estate'" dir="ltr">
+      <span *ngFor="let slide of RealEstatebanners; let i = index">
+        <ion-slide> <img [src]="slide.image" class="slide-image" />
+         
+        </ion-slide>
+      </span> 
+    </ion-slides>
+  </span>
+
+  
+  <span *ngIf="ptype=='Car Services & Repairs'">
+      <ion-slides autoplay="2000" loop="true" pager *ngIf="ptype=='Car Services & Repairs'" dir="ltr">
+        <span *ngFor="let slide of CarServiceBanners; let i = index">
+          <ion-slide> <img [src]="slide.image" class="slide-image" />
+           
+          </ion-slide>
+        </span> 
+      </ion-slides>
+    </span>
+  <div class="form" padding-left padding-right> 
+    
+      <p text-center padding-bottom margin-bottom  *ngIf="realEstate">Book your free site visit now.!</p>
+    <p text-center padding-bottom margin-bottom *ngIf="!directDrive && !realEstate">Select a Service</p>
+    <ion-list>
+      <ion-item *ngIf="!directDrive && ptype!='wedding' && !household && !carServices && !realEstate">
+        <ion-label>Choose a Service</ion-label>
+        <ion-select [(ngModel)]="serviceType" (ionChange)="onSelectChange($event)">
+          <ion-option value="Laundry">Laundry</ion-option>
+          <ion-option value="Fassion & Apparels">Fashion & Apparels</ion-option>
+          <ion-option value="Food Delivery">Food Delivery</ion-option>
+          <ion-option value="Medical Delivery">Medical Delivery</ion-option>
+          <ion-option value="Banking Services">Banking Services</ion-option>
+          <ion-option value="House Hold Services">House Hold Services</ion-option>
+          <ion-option value="wedding"> Wedding & Events </ion-option>
+          <ion-option value="Car Services & Repairs"> Car Services & Repairs </ion-option>
+          <ion-option value="Real Estate">Real Estate</ion-option>
+          <ion-option value="Self Drive Vehicles">Self Drive Vehicles</ion-option>
+        </ion-select>
+      </ion-item>
+      <ion-item > 
+
+        <ion-label *ngIf="ifVehicle">Select Your Vehicle</ion-label>
+        <ion-label *ngIf="!ifVehicle && !realEstate">Service</ion-label>
+        <ion-label *ngIf="realEstate">Plot Type</ion-label>
+        
+        <ion-select [(ngModel)]="types">
+          <ion-option *ngFor="let t of ttypes" value="{{t.name}}">{{t.name}}</ion-option>
+        </ion-select>
+      </ion-item>
+      <ion-item *ngIf="ifVehicle">
+        <ion-label>Vehicle Pickup Address</ion-label>
+        <ion-input type="text" text-right [(ngModel)]="vpickup"></ion-input>
+      </ion-item>
+      <ion-item *ngIf="ifVehicle">
+        <ion-label>Vehicle Droping Address</ion-label>
+        <ion-input type="text" text-right [(ngModel)]="vdrop"></ion-input>
+      </ion-item>
+      
+      <ion-item *ngIf="!realEstate">
+        <ion-label>Enter Email ID</ion-label>
+        <ion-input type="email" text-right placeholder="Email Address" [(ngModel)]="email"></ion-input>
+      </ion-item>
+
+      
+      <ion-item *ngIf="ifVehicle">
+          <ion-label>Choose a Service</ion-label>
+          <ion-select [(ngModel)]="ExtraService" >
+            <ion-option value="PickUp">Pick Up At Home </ion-option>
+            <ion-option value="Drop at garage">Drop at garage</ion-option>
+          </ion-select>
+        </ion-item>
+
+      <ion-item *ngIf="realEstate">
+          <ion-label>Choose a Service</ion-label>
+          <ion-select [(ngModel)]="ExtraService" >
+            <ion-option value="Rent">Rent </ion-option>
+            <ion-option value="Buy">Buy </ion-option>
+          </ion-select>
+        </ion-item>
+
+      <ion-item>
+        <ion-label>Enter Full
+          Name</ion-label>
+        <ion-input type="text" text-right placeholder="Your Name" [(ngModel)]="name"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Enter
+          Phone</ion-label>
+        <ion-input type="tel" text-right placeholder="Mobile Number" [(ngModel)]="phone"></ion-input>
+      </ion-item>
+      <ion-item *ngIf="ifVehicle || realEstate">
+        <ion-label>{{dlabel2}}</ion-label>
+        <ion-datetime text-right displayFormat="MMM DD, YYYY HH:mm"  [(ngModel)]="dtime"></ion-datetime>
+        <ion-icon name="calendar" item-right></ion-icon>
+      </ion-item>
+      <ion-item *ngIf="!realEstate">
+        <ion-label stacked>Your Address</ion-label> 
+        <ion-textarea fz-elastic text-left [(ngModel)]="address" class="tarea"></ion-textarea>
+      </ion-item>  
+      
+      <ion-item *ngIf="!ifVehicle && !realEstate">
+        <ion-label stacked>Describe complete service request </ion-label>
+        <br />
+        <ion-textarea fz-elastic text-left placeholder="Your complete request" [(ngModel)]="desc" class="tarea"></ion-textarea>
+      </ion-item>
+
+      
+      <button ion-item class="btt" *ngIf="ifVehicle || household || carServices" (click)="file()">
+        {{dlabel}} <ion-icon name="attach" item-end></ion-icon> </button>
+
+    </ion-list> 
+    <button ion-button full class="bg-thime btn-round btn-text" (click)="send()">Submit</button>
+    <p text-center>By Booking I agree to Terms
+      & Conditions</p>
+
+  </div>
+</ion-content>

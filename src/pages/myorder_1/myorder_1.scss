@@ -1,0 +1,217 @@
+page-myorder_1 {
+    .text-light {
+        color: #999 !important;
+    }
+    .tab-bar {
+        padding: 0 10px !important;
+        min-height: 42px;
+        .toolbar-background {
+            background: #206c16 !important;
+        }
+        .segment-button {
+            text-transform: none;
+            color: $white-color;
+            margin-bottom: -0 !important;
+            position: relative;
+            border: none !important;
+            &::after {
+                content: '';
+                display: block;
+                height: 4px;
+                width: 60px;
+                position: absolute;
+                bottom: 0px;
+                margin: auto;
+                left: 0;
+                right: 0;
+            }
+            &.segment-activated {
+                &::after {
+                    background: $white-color;
+                }
+            }
+        }
+    }
+    .card {
+        margin: 6px !important;
+        width: auto !important;
+        border-radius: 5px !important;
+        .card-header {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            .left-side {
+                margin-right: auto;
+            }
+            .right-side {
+                margin-left: auto;
+            }
+            p {
+                font-size: 1rem;
+                margin-bottom: 0;
+            }
+        }
+        .card-content {
+            padding-top: 10px;
+            p.small-text {
+                font-size: .9rem;
+                span {
+                    position: absolute;
+                    right: 0;
+                }
+            }
+            .img-box {
+                width: 100px;
+                margin: 0 auto;
+            }
+            h4 {
+                font-size: 1.2rem;
+                font-weight: 500;
+            }
+            h6 {
+                font-size: 1rem;
+            }
+            p {
+                display: flex;
+                align-items: center;
+                font-weight: 500;
+                font-size: 1.3rem;
+                padding-top: 10px;
+                padding-bottom: 12px;
+                small {
+                    font-weight: 400 !important;
+                }
+                img {
+                    width: 9px;
+                    margin-right: 7px;
+                }
+                .text-light {
+                    margin-left: 7px;
+                }
+            }
+            button {
+                &.button {
+                    height: 2.9rem;
+                }
+                &.btn-text {
+                    font-size: 1rem;
+                    padding: 0;
+                    letter-spacing: 1px;
+                    position: relative;
+                    ion-icon {
+                        font-size: 1.9rem;
+                        top: 5px;
+                        position: absolute;
+                        right: 17px;
+                    }
+                }
+                &.btn-round {
+                    border-radius: 5px !important;
+                }
+            }
+        }
+    }
+    small {
+        font-size: 1.1rem;
+        display: block;
+        line-height: 2;
+    }
+    @media screen and (max-width: 350px) {
+        small {
+            font-size: .9rem;
+        }
+        button {
+            &.btn-text {
+                font-size: .7rem !important;
+                ion-icon {
+                    font-size: 1.2rem !important;
+                    top: 9px !important;
+                    right: 10px !important;
+                }
+            }
+        }
+    }
+    .order-info {
+        overflow-x: auto;
+        background: #f8f8f8;
+        padding: 30px 0px 16px 0px;
+        margin: 0 5px;
+        border-radius: 7px;
+        margin-top: -18px;
+        width: calc(100% - 10px);
+        .order-container {
+            width: 428px;
+            display: block;
+            clear: both;
+            margin: auto;
+            &::after {
+                clear: both;
+                content: '';
+                display: block;
+                width: 100%;
+            }
+        }
+        .status {
+            width: 85px;
+            float: left;
+            display: block;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            p {
+                font-size: .9rem;
+                height: 23px;
+                margin: 0;
+                overflow: hidden;
+                opacity: .7;
+            }
+            ion-icon {
+                margin: 5px auto;
+                color: #bbbbbb;
+                position: relative;
+                z-index: 3;
+            }
+            &::before {
+                content: '';
+                display: block;
+                height: 2px;
+                width: calc(100% - 16px);
+                position: absolute;
+                background: #ddd;
+                top: 0px;
+                bottom: 0;
+                margin: auto;
+                z-index: 0;
+                left: calc(-50% + 8px);
+            }
+            &:first-child {
+                &::before {
+                    display: none;
+                }
+            }
+            &.active {
+                &::before {
+                    background:  lighten($bg-color, 10%);
+//                    background: #4dd711;
+                }
+                ion-icon {
+                    color:  lighten($bg-color, 10%);
+                }
+                p {
+                    opacity: 1;
+                }
+            }
+        } 
+    }
+    .border {
+        border: 1px solid #ccc;
+    }
+    .border-top-none {
+        border-top: none !important;
+    }
+    .border-bottom-none {
+        border-bottom: none !important;
+    }
+}

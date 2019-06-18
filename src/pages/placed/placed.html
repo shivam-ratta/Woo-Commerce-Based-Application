@@ -1,0 +1,16 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title><p text-center style="width:100%">{{ 'order_placed_1' | translate }}</p></ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <div class="img-box">
+        <img src="assets/imgs/order-placed.jpg">
+    </div>
+    <h3 text-center>{{ 'order_placed_2' | translate }}</h3>
+    <h4 class="" text-center padding-left padding-right>{{ 'order_placed_message_part1' | translate }}<br>{{ 'order_placed_message_part2' | translate }}<strong (click)="ordersPage()">{{ 'nav_title_my_order' | translate }}</strong> {{ 'order_placed_message_part3' | translate }}</h4>
+    <div class="btn-padding btn-fisx-bottom ">
+        <button ion-button full class="bg-green btn-round green-shadow btn-text" (click)="homePage()">{{ 'continue_shopping' | translate }}</button>
+    </div>
+</ion-content>

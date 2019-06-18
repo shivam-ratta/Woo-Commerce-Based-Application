@@ -1,0 +1,84 @@
+<ion-menu [side]="getSideOfCurLang()" [content]="content">
+    <ion-header>
+        <ion-toolbar>
+            <ion-list>
+                <ion-item menuClose (click)="actionNavHeader()">
+                    <ion-avatar item-start> <img src="assets/imgs/icon.png">
+                    </ion-avatar>
+                    <h2 *ngIf="user && user.first_name.length">{{ 'hey' | translate }}
+                        {{user.first_name}} </h2>
+                    <h2 *ngIf="user && !user.first_name.length">{{ 'hey' |
+                        translate }} {{user.username}} </h2>
+                    <h2 *ngIf="!user">{{ 'hey_guest' | translate
+                        }} </h2>
+                    <p *ngIf="user">{{user.email}}</p>
+                    <ion-icon item-end name="ios-arrow-forward" style="font-size: 20px;"></ion-icon>
+                </ion-item>
+            </ion-list>
+        </ion-toolbar>
+        <div *ngIf="user" class="menu-tabs" padding text-center>
+            <ion-row>
+                <ion-col menuClose (click)="myorder_1Page()" class="d-flex align-items-center"> <img src="assets/imgs/ic_my_orders-2.png">
+                    <p padding-left>{{ 'nav_title_my_order' | translate }}</p>
+                </ion-col>
+                <!-- <ion-col col-4 menuClose (click)="my_accountPage()">                    <img src="assets/imgs/my-card.png">                    <p>My Card</p>                </ion-col> -->
+                <ion-col menuClose (click)="addressPage()" class="d-flex align-items-center"> <img src="assets/imgs/ic_my_addresses-2.png">
+                    <p padding-left>{{ 'nav_title_my_address' | translate }}</p>
+                </ion-col>
+            </ion-row>
+        </div>
+    </ion-header>
+    <ion-content>
+        <div class="menu-title">
+            <ion-list> 
+                <button ion-item menuClose (click)="homePage()"> 
+                    <img item-start src="assets/imgs/ic_home.png ">
+                    {{
+                    'nav_title_home' | translate }} 
+                </button> 
+                <button ion-item menuClose (click)="categoriesPage()">
+                    <img item-start src="assets/imgs/ic_categories.png "> {{ 'nav_title_categories' | translate
+                    }} </button> 
+                    
+                
+                    
+                    <button ion-item menuClose (click)="subscriptionPage()"> <img item-start src="assets/imgs/ic_categories.png ">
+                    Family Subscription </button>
+                
+                    <button ion-item menuClose (click)="chitPage()"> <img item-start src="assets/imgs/ic_categories.png ">
+                    Annual Family Chit </button> 
+                    
+                    <button ion-item menuClose (click)="drivePage()"> <img item-start src="assets/imgs/ic_categories.png ">
+                    Self-Driving Vehicles </button>
+                    
+                    <button ion-item menuClose (click)="houseHoldServices()"> <img item-start src="assets/imgs/ic_categories.png ">
+                        Services </button>
+<!--
+                    <button ion-item menuClose (click)="servicesPage()"> <img item-start src="assets/imgs/ic_categories.png ">
+                        Services </button> 
+-->
+
+                <!--                <div class="drop-down ">                    <button ion-item menuClose (click)="categoryPage() ">                    <img src="assets/imgs/ic_electronics.png ">                        Electronics                </button>                    <button ion-item menuClose (click)="categoryPage() ">                    <img src="assets/imgs/ic_fashion.png ">                        Fashion                </button>                    <button ion-item menuClose (click)="categoryPage() ">                    <img src="assets/imgs/ic_home_decor.png ">                        Home Decor                </button>                    <button ion-item menuClose (click)="categoryPage() ">                    <img src="assets/imgs/ic_mobile.png ">                        Mobile                </button>                    <button ion-item menuClose (click)="categoryPage() ">                    <img src="assets/imgs/ic_more.png ">                        More                </button>                </div>				-->
+                <!-- <button *ngIf="user" ion-item menuClose (click)="myorder_2Page()">                    <img src="assets/imgs/ic_my_cart.png "> {{ 'nav_title_my_cart' | translate }}                </button> -->
+                <!--                <button ion-item menuClose (click)="myorder_2Page()">                    <img src="assets/imgs/ic_my_cart.png ">                        My Orders                </button>				-->
+                <!--                <button ion-item menuClose (click)="wishlistPage()">                    <img src="assets/imgs/ic_my_wishlist.png ">                        My Wishlist                </button>                -->
+                <button *ngIf="user" ion-item menuClose (click)="my_accountPage()"> 
+                    <img item-start src="assets/imgs/ic_my_account.png ">
+                    {{ 'nav_title_my_account' | translate }} 
+                </button> 
+
+                <button ion-item menuClose (click)="helpPage()">
+                    <img item-start src="assets/imgs/ic_help.png "> 
+                    {{ 'nav_title_help_center' | translate }}
+                </button> 
+                
+                <button *ngIf="user" ion-item menuClose (click)="phonenumberPage()"> <img item-start src="assets/imgs/ic_logout.png ">
+                    {{ 'nav_title_logout' | translate }} </button>
+                
+                    <!--                <button ion-item menuClose (click)="reviewPage()">                    <img src="assets/imgs/ic_more.png ">                        Add Reviews                </button>				-->
+            </ion-list>
+        </div>
+    </ion-content>
+</ion-menu>
+<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+<ion-nav [root]="rootPage" [class]="deviceModel" #content swipeBackEnabled="false " type="overlay"></ion-nav>

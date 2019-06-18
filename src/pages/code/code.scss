@@ -1,0 +1,47 @@
+page-code {
+    .bg-light {
+        background: rgba(0, 0, 0, .2)!important;
+        position: relative;
+    }
+    .close-btn {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        line-height: 28px;
+        border-radius: 50%;
+        color: #ffffff;
+        background: #ff5722d1;
+        text-align: center;
+        font-size: 1rem;
+        top: -12px;
+        left: auto;
+        right: -12px;
+    }
+    .code {
+        background: $white-color;
+        width: 300px;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 220px;
+        border-radius: 1rem;
+        text-align: center;
+        padding: 16px 32px;
+        h2 {
+            font-weight: 700;
+            font-size: 2rem;
+        }
+        ion-input {
+            border: 1px solid #eee;
+            margin: 2rem 0rem;
+            width: 100%;
+            border-radius: 5px;
+            .text-input {
+                padding: 0 10px;
+            }
+        }
+    }
+}

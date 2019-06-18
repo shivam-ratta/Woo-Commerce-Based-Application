@@ -1,0 +1,415 @@
+page-home {
+    ion-header {
+        img.logo {
+            width: 90px;
+            margin: auto;
+        }
+        .toolbar-content {
+            display: flex !important;
+            align-items: center!important;
+        }
+    }
+    .list {
+        margin: 0 !important;
+    }
+    ion-title {
+        span {
+            position: relative;
+        }
+    }
+    .searchbar {
+        padding: 5px 8px;
+        padding-top: 0 !important;
+        border-bottom: none !important;
+        background: none !important;
+        .searchbar-input {
+            border-radius: 5px !important;
+            font-size: 1.2rem;
+            font-weight: 300;
+            line-height: 2.8rem;
+            height: 3.7rem !important;
+            padding: 6px 43px;
+            box-shadow: none !important;
+        }
+        .searchbar-input-container {
+            border: none !important;
+        }
+        .searchbar-search-icon {
+            left: 10px;
+            top: 9px;
+        }
+    }
+    ion-slides {
+        height: 160px !important;
+        .slide-zoom {
+            position: relative;
+            height: 160px;
+            img {
+                position: absolute;
+                min-width: 100%;
+                min-height: 100%;
+                top: 0;
+                bottom: 0;
+                left: -50%;
+                right: -50%;
+                margin: auto;
+            }
+        }
+    }
+    p {
+        font-size: 1.3rem;
+        margin-left: 16px;
+        margin-right: 10px;
+        small {
+            width: 60px;
+            text-align: center;
+            line-height: 22px;
+            margin-top: -4px;
+        }
+    }
+    .banner-text {
+        position: absolute;
+        top: 0;
+        text-align: left;
+        color: $white-color;
+        padding: 5px;
+        small {
+            font-size: 1rem;
+            font-weight: 100;
+            margin-top: 25px;
+            display: block;
+            margin-left: 16px;
+        }
+        p {
+            margin-top: 0;
+            margin-bottom: -5px;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-left: 16px;
+            margin-top: 24px;
+        }
+    }
+    .swiper-pagination-bullet {
+        width: 5px !important;
+        height: 5px !important;
+        background: transparent !important;
+        opacity: 1 !important;
+        border: 1px solid $white-color !important;
+    }
+    .swiper-pagination-bullet-active {
+        background: $white-color!important;
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 3px;
+    }
+    img {
+        display: block;
+    }
+    .header {
+        .toolbar-title {
+            .logo {
+                text-align: center;
+                width: calc(100% - 58px);
+            }
+            .icon-box {
+                //                margin-left: 0;
+                top: 0px !important;
+                ion-badge {
+                    background-color: #ff0000;
+                    position: absolute;
+                    text-align: center;
+                    right: -4px;
+                    top: 1px;
+                    font-size: 1rem;
+                    font-weight: 100;
+                    border-radius: 50%;
+                    width: 14px;
+                    line-height: 14px;
+                    padding: 0;
+                }
+            }
+        }
+    }
+    h4 {
+        font-size: 1.1rem;
+        margin: 15px 0;
+        letter-spacing: 1px;
+    }
+    .item-box {
+        text-align: center;
+        width: 70px;
+        margin: 0 auto;
+        margin-bottom: 14px;
+        .img {
+            width: 65px;
+            height: 65px;
+            position: relative;
+            border-radius: 50%;
+            overflow: hidden;
+            img {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                max-height: 100%;
+            }
+        }
+        p {
+            margin-left: 5px !important;
+            margin-right: 5px !important;
+            font-size: 1rem;
+            padding-top: 4px;
+            height: 30px;
+            overflow: hidden;
+        }
+    }
+    @media screen and (max-width: 350px) {
+        .item-box {
+            width: 65px !important;
+            p {
+                font-size: .85rem !important;
+            }
+        }
+    }
+    .col.item-boxs {
+        border: 1px solid #f9f9f9;
+        margin-top: -1px;
+        margin-right: -1px;
+        min-width: calc(33.2% + 1px) !important;
+        padding-top: 1.2em !important;
+    }
+    .toolbar-content-ios .toolbar-title-ios {
+        margin-top: 36px;
+    }
+    .round {
+        border-radius: 50%;
+      }
+      
+      page-home ion-header img.logo {
+        width: 90px;
+        margin: auto;
+      }
+      
+      page-home ion-header .toolbar-content {
+        display: -webkit-box !important;
+        display: -webkit-flex !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -webkit-box-align: center !important;
+        -webkit-align-items: center !important;
+        -ms-flex-align: center !important;
+        align-items: center !important;
+      }
+      
+      page-home .list {
+        margin: 0 !important;
+      }
+      
+      page-home ion-title span {
+        position: relative;
+      }
+      
+      page-home .searchbar {
+        padding: 5px 8px;
+        padding-top: 0 !important;
+        border-bottom: none !important;
+        background: none !important;
+      }
+      
+      page-home .searchbar .searchbar-input {
+        border-radius: 5px !important;
+        font-size: 1.2rem;
+        font-weight: 300;
+        line-height: 2.8rem;
+        height: 3.7rem !important;
+        padding: 6px 43px;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+      }
+      
+      page-home .searchbar .searchbar-input-container {
+        border: none !important;
+      }
+      
+      page-home .searchbar .searchbar-search-icon {
+        left: 10px;
+        top: 9px;
+      }
+      
+      page-home ion-slides {
+        height: 160px !important;
+      }
+      
+      page-home ion-slides .slide-zoom {
+        position: relative;
+        height: 160px;
+      }
+      
+      page-home ion-slides .slide-zoom img {
+        position: absolute;
+        min-width: 100%;
+        min-height: 100%;
+        top: 0;
+        bottom: 0;
+        left: -50%;
+        right: -50%;
+        margin: auto;
+      }
+      
+      page-home p {
+        font-size: 1.3rem;
+        margin-left: 16px;
+        margin-right: 10px;
+      }
+      
+      page-home p small {
+        width: 60px;
+        text-align: center;
+        line-height: 22px;
+        margin-top: -4px;
+      }
+      
+      page-home .banner-text {
+        position: absolute;
+        top: 0;
+        text-align: left;
+        color: #ffffff;
+        padding: 5px;
+      }
+      
+      page-home .banner-text small {
+        font-size: 1rem;
+        font-weight: 100;
+        margin-top: 25px;
+        display: block;
+        margin-left: 16px;
+      }
+      
+      page-home .banner-text p {
+        margin-top: 0;
+        margin-bottom: -5px;
+      }
+      
+      page-home .banner-text h2 {
+        font-size: 2rem;
+        margin-left: 16px;
+        margin-top: 24px;
+      }
+      
+      page-home .swiper-pagination-bullet {
+        width: 5px !important;
+        height: 5px !important;
+        background: transparent !important;
+        opacity: 1 !important;
+        border: 1px solid #ffffff !important;
+      }
+      
+      page-home .swiper-pagination-bullet-active {
+        background: #ffffff !important;
+      }
+      
+      page-home .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 3px;
+      }
+      
+      page-home img {
+        display: block;
+      }
+      
+      page-home .header .toolbar-title .logo {
+        text-align: center;
+        width: calc(100% - 58px);
+      }
+      
+      page-home .header .toolbar-title .icon-box {
+        top: 0px !important;
+      }
+      
+      page-home .header .toolbar-title .icon-box ion-badge {
+        background-color: #ff0000;
+        position: absolute;
+        text-align: center;
+        right: -4px;
+        top: 1px;
+        font-size: 1rem;
+        font-weight: 100;
+        border-radius: 50%;
+        width: 14px;
+        line-height: 14px;
+        padding: 0;
+      }
+      
+      page-home h4 {
+        font-size: 1.1rem;
+        margin: 15px 0;
+        letter-spacing: 1px;
+      }
+      
+      page-home .item-box {
+        text-align: center;
+        width: 70px;
+        margin: 0 auto;
+        margin-bottom: 14px;
+      }
+      
+      page-home .item-box .img {
+        width: 65px;
+        height: 65px;
+        position: relative;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      
+      page-home .item-box .img img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        max-height: 100%;
+      }
+      
+      page-home .item-box p {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+        font-size: 1rem;
+        padding-top: 4px;
+        height: 30px;
+        overflow: hidden;
+      }
+      
+      @media screen and (max-width: 350px) {
+        page-home .item-box {
+          width: 65px !important;
+        }
+        page-home .item-box p {
+          font-size: .85rem !important;
+        }
+      }
+      
+      page-home .col.item-boxs {
+        border: 1px solid #f9f9f9;
+        margin-top: -1px;
+        margin-right: -1px;
+        min-width: calc(33.2% + 1px) !important;
+        padding-top: 1.2em !important;
+      }
+      
+      page-home .toolbar-content-ios .toolbar-title-ios {
+        margin-top: 36px;
+      }
+      
+      page-home .hideIt {
+        display: none !important;
+      }
+      
+}
+
+//.toolbar-ios {
+//    min-height: 60px !important;
+//    display: flex !important;
+//}

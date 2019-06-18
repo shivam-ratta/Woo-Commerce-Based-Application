@@ -1,0 +1,1172 @@
+-- Merging decision tree log ---
+provider#org.apache.cordova.camera.FileProvider
+INJECTED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:12:9-14:20
+	android:grantUriPermissions
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:12:92-126
+	android:authorities
+		INJECTED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:12:19-66
+	android:exported
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:12:67-91
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:12:127-180
+provider#nl.xservices.plugins.FileProvider
+INJECTED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:35:9-37:20
+	android:grantUriPermissions
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:35:100-134
+	android:authorities
+		INJECTED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:35:19-74
+	android:exported
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:35:75-99
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:35:135-183
+manifest
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:2:1-58:12
+MERGED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:2:1-28:12
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:2:1-28:12
+MERGED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.4.aar\2bae795257482e58438d561de9695893\AndroidManifest.xml:2:1-35:12
+MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:17:1-42:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2ede33c2284b05df1400eaea3a860226\AndroidManifest.xml:2:1-19:12
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:2:1-107:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\609aca10101de22c4e1167566df2edf2\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-login-4.40.0.aar\c885c9d00a996b08dd4cfcd7311506a7\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-share-4.40.0.aar\02002cae9974b72db9537e3d9bcb392e\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\f7a4d7e54c96c4626c58d8468381ddec\AndroidManifest.xml:21:1-37:12
+MERGED from [com.google.android.gms:play-services-tagmanager:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-16.0.8.aar\be8cd707ff99952eb513f39fa5af9c18\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\f42b17b07b02a87b36cb6ba6f64ee917\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-identity:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-identity-15.0.1.aar\ef45f3312e05d4a368df9457b4b568e1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-16.0.8.aar\8f8592685a2ad7f9bbc8af9ad91a9ce3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.8.aar\a4f08427435423e466169fc4d9efcdd7\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\29f82727f4f9562250e9c461399c74e1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\f67c885b91ef69ccbc8c175e2e74537c\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-16.4.0.aar\79b14ef15bb2b6d0ad2f7146e2256907\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\f8f52e4c2c74d66acea026113154a747\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\6bf96695be70bd35ca2e908d62c42b85\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-config:16.5.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-config-16.5.0.aar\fe3cc832f92baa577be907162d690870\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\9a0e2607392f96a8cd12c15ac16446f0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\dbebc50f3aa3ab8e541120bdf66b8966\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\3dfafa7f6d3801c5ce1c49275427fe80\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-16.0.0.aar\88e15fa95f2941be851063f612775e6e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-15.0.1.aar\13076b821b1e76f27c61660742f04c92\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-15.0.1.aar\02a282fe54b83dec815281450617173d\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\f61bdba9582b2dd0de389bae78d6654a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\9921610118370c2ec01ca504496d78a5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\9b6b51c30721dc75bd0de6eb1a3ac994\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.4.0.aar\9881ea5a7d13a69916c0777d058ac8ab\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-abt:17.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-abt-17.1.0.aar\7ca3de08c579d1fe116c6db7a33f1f1a\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\32a15e66af072a74d2114bc2305d6c91\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\ee418f1370be5e238b2af3d0c1af44dd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\d40e0d3eb2753e5e94ef8eed9f97d673\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\7376ce7b06ad431e63d9077f6b9f3a70\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\81095ee381851571bf3c59c47748e9ca\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a41455e2b9fe222b3b7fa767c4127218\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\e297c162ca39d8b8a766cb5eb9ec911b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\3e47b5014a3991f269113772ce590cd0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\68190ce1ebfe091c1c7c1be835ac7b6c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\7673de03eb28889af19ccd3a4ebd4b77\AndroidManifest.xml:17:1-22:12
+MERGED from [:CordovaLib] C:\ionic\Grocer\platforms\android\CordovaLib\build\intermediates\manifests\full\release\AndroidManifest.xml:20:1-27:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\988c510fdb17f1fa7b99ca53d81e60fc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\814d6c59bce276f690ecbb61b0ef3386\AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\c946798fcd9636e9604712164a4675dd\AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\6342e3f9a25347e8b310a9151d5794b0\AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\1e2d2b5a836c230f70c9e8d122f52969\AndroidManifest.xml:22:1-33:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\8c5020cde8019db4ac49ae95e2ab1231\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7cda399e3dc2211d325145bdbc83b957\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\fa70d83dbc3130254bbef8ef4f8efa5d\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\22e3942776e7bee11dd64a78035bc779\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\9d4ba57e875276aeb1bbe291b1140d4c\AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\66f9ffcfd4cae98f3f9270abee32a63d\AndroidManifest.xml:21:1-35:12
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\92251703b8b1e4ba0f2004c8056ac6b8\AndroidManifest.xml:21:1-53:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\855f8a10093ac956a82e5c42d90a6636\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\426df36218b455dec6c0c4ae761ed14b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\c0c20faa6147d19ae13a8ab51721ed80\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\f8fc79341c58a57201c9b2e3b7f7ba3a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\03122a548b2fdefdfa3f105385d4bdb4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\69ae8b05690d26fb9486034e6822bc96\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\0b11a2874d0f02efd37dc8184dd75430\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\203b0f221eaa99c4cf847bf090723dd3\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:2:1-58:12
+	package
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:2:98-122
+		INJECTED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:2:70-97
+		INJECTED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:2:123-181
+	android:versionCode
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:2:46-69
+		INJECTED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:10:5-67
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:10:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2ede33c2284b05df1400eaea3a860226\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2ede33c2284b05df1400eaea3a860226\AndroidManifest.xml:9:5-67
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:17:5-67
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:17:5-67
+MERGED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-16.0.8.aar\8f8592685a2ad7f9bbc8af9ad91a9ce3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-16.0.8.aar\8f8592685a2ad7f9bbc8af9ad91a9ce3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\f67c885b91ef69ccbc8c175e2e74537c\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\f67c885b91ef69ccbc8c175e2e74537c\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\f8f52e4c2c74d66acea026113154a747\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\f8f52e4c2c74d66acea026113154a747\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\9b6b51c30721dc75bd0de6eb1a3ac994\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\9b6b51c30721dc75bd0de6eb1a3ac994\AndroidManifest.xml:23:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\814d6c59bce276f690ecbb61b0ef3386\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\814d6c59bce276f690ecbb61b0ef3386\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\c946798fcd9636e9604712164a4675dd\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\c946798fcd9636e9604712164a4675dd\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\6342e3f9a25347e8b310a9151d5794b0\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\6342e3f9a25347e8b310a9151d5794b0\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\1e2d2b5a836c230f70c9e8d122f52969\AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\1e2d2b5a836c230f70c9e8d122f52969\AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:5:5-47:19
+MERGED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:21:5-26:19
+MERGED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:21:5-26:19
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:12:5-26:19
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:12:5-26:19
+MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:23:5-40:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2ede33c2284b05df1400eaea3a860226\AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2ede33c2284b05df1400eaea3a860226\AndroidManifest.xml:11:5-17:19
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:49:5-105:19
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:49:5-105:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\609aca10101de22c4e1167566df2edf2\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\609aca10101de22c4e1167566df2edf2\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-login-4.40.0.aar\c885c9d00a996b08dd4cfcd7311506a7\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-login-4.40.0.aar\c885c9d00a996b08dd4cfcd7311506a7\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-share-4.40.0.aar\02002cae9974b72db9537e3d9bcb392e\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-share-4.40.0.aar\02002cae9974b72db9537e3d9bcb392e\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\f7a4d7e54c96c4626c58d8468381ddec\AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\f7a4d7e54c96c4626c58d8468381ddec\AndroidManifest.xml:28:5-35:19
+MERGED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:27:5-39:19
+MERGED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:27:5-39:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\f42b17b07b02a87b36cb6ba6f64ee917\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\f42b17b07b02a87b36cb6ba6f64ee917\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-identity:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-identity-15.0.1.aar\ef45f3312e05d4a368df9457b4b568e1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-identity-15.0.1.aar\ef45f3312e05d4a368df9457b4b568e1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:26:5-45:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:26:5-45:19
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-16.0.8.aar\8f8592685a2ad7f9bbc8af9ad91a9ce3\AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-16.0.8.aar\8f8592685a2ad7f9bbc8af9ad91a9ce3\AndroidManifest.xml:29:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.8.aar\a4f08427435423e466169fc4d9efcdd7\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.8.aar\a4f08427435423e466169fc4d9efcdd7\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\29f82727f4f9562250e9c461399c74e1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\29f82727f4f9562250e9c461399c74e1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\f67c885b91ef69ccbc8c175e2e74537c\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\f67c885b91ef69ccbc8c175e2e74537c\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-16.4.0.aar\79b14ef15bb2b6d0ad2f7146e2256907\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-16.4.0.aar\79b14ef15bb2b6d0ad2f7146e2256907\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\f8f52e4c2c74d66acea026113154a747\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\f8f52e4c2c74d66acea026113154a747\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\6bf96695be70bd35ca2e908d62c42b85\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\6bf96695be70bd35ca2e908d62c42b85\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-config:16.5.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-config-16.5.0.aar\fe3cc832f92baa577be907162d690870\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-config:16.5.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-config-16.5.0.aar\fe3cc832f92baa577be907162d690870\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\9a0e2607392f96a8cd12c15ac16446f0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\9a0e2607392f96a8cd12c15ac16446f0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\dbebc50f3aa3ab8e541120bdf66b8966\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\dbebc50f3aa3ab8e541120bdf66b8966\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\3dfafa7f6d3801c5ce1c49275427fe80\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\3dfafa7f6d3801c5ce1c49275427fe80\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-16.0.0.aar\88e15fa95f2941be851063f612775e6e\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-16.0.0.aar\88e15fa95f2941be851063f612775e6e\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\f61bdba9582b2dd0de389bae78d6654a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\f61bdba9582b2dd0de389bae78d6654a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\9921610118370c2ec01ca504496d78a5\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\9921610118370c2ec01ca504496d78a5\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\9b6b51c30721dc75bd0de6eb1a3ac994\AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\9b6b51c30721dc75bd0de6eb1a3ac994\AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.4.0.aar\9881ea5a7d13a69916c0777d058ac8ab\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.4.0.aar\9881ea5a7d13a69916c0777d058ac8ab\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-abt:17.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-abt-17.1.0.aar\7ca3de08c579d1fe116c6db7a33f1f1a\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-abt:17.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-abt-17.1.0.aar\7ca3de08c579d1fe116c6db7a33f1f1a\AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\32a15e66af072a74d2114bc2305d6c91\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\32a15e66af072a74d2114bc2305d6c91\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\d40e0d3eb2753e5e94ef8eed9f97d673\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\d40e0d3eb2753e5e94ef8eed9f97d673\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\7376ce7b06ad431e63d9077f6b9f3a70\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\7376ce7b06ad431e63d9077f6b9f3a70\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\81095ee381851571bf3c59c47748e9ca\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\81095ee381851571bf3c59c47748e9ca\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a41455e2b9fe222b3b7fa767c4127218\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a41455e2b9fe222b3b7fa767c4127218\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\e297c162ca39d8b8a766cb5eb9ec911b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\e297c162ca39d8b8a766cb5eb9ec911b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\3e47b5014a3991f269113772ce590cd0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\3e47b5014a3991f269113772ce590cd0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\814d6c59bce276f690ecbb61b0ef3386\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\814d6c59bce276f690ecbb61b0ef3386\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\c946798fcd9636e9604712164a4675dd\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\c946798fcd9636e9604712164a4675dd\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\6342e3f9a25347e8b310a9151d5794b0\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\6342e3f9a25347e8b310a9151d5794b0\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\1e2d2b5a836c230f70c9e8d122f52969\AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\1e2d2b5a836c230f70c9e8d122f52969\AndroidManifest.xml:31:5-20
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\fa70d83dbc3130254bbef8ef4f8efa5d\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\fa70d83dbc3130254bbef8ef4f8efa5d\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\22e3942776e7bee11dd64a78035bc779\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\22e3942776e7bee11dd64a78035bc779\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\9d4ba57e875276aeb1bbe291b1140d4c\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\9d4ba57e875276aeb1bbe291b1140d4c\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\66f9ffcfd4cae98f3f9270abee32a63d\AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\66f9ffcfd4cae98f3f9270abee32a63d\AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\92251703b8b1e4ba0f2004c8056ac6b8\AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\92251703b8b1e4ba0f2004c8056ac6b8\AndroidManifest.xml:28:5-51:19
+	android:supportsRtl
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
+activity#com.easy.vizag.MainActivity
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
+	android:screenOrientation
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:6:194-230
+	android:label
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:6:294-336
+	android:configChanges
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:6:231-293
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:15:9-102
+	android:value
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:15:66-99
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:15:20-65
+meta-data#com.facebook.sdk.ApplicationName
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:16:9-106
+	android:value
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:16:68-103
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:16:20-67
+activity#com.facebook.FacebookActivity
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:17:9-186
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\f7a4d7e54c96c4626c58d8468381ddec\AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\f7a4d7e54c96c4626c58d8468381ddec\AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:17:103-138
+	android:configChanges
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:17:19-102
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\f7a4d7e54c96c4626c58d8468381ddec\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:17:139-183
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:18:9-140
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:18:18-40
+	android:exported
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:18:41-65
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:18:66-137
+service#org.apache.cordova.firebase.FirebasePluginMessagingService
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:19:9-23:19
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:19:18-91
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:20:13-22:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:21:17-78
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:21:25-75
+service#org.apache.cordova.firebase.FirebasePluginInstanceIDService
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:24:9-28:19
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:24:18-92
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:25:13-27:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:26:17-80
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:26:25-77
+receiver#org.apache.cordova.firebase.OnNotificationOpenReceiver
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:29:9-91
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:29:19-88
+receiver#nl.xservices.plugins.ShareChooserPendingIntent
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:30:9-34:20
+	android:enabled
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:30:19-41
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:30:42-103
+intent-filter#android.intent.action.SEND
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:31:13-33:29
+action#android.intent.action.SEND
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:32:25-66
+amazon:enable-feature
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:38:9-159
+	xmlns:amazon
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:38:100-156
+	android:required
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:38:75-99
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:38:32-74
+service#com.onesignal.ADMMessageHandler
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:39:9-92
+	android:exported
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:39:18-42
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:39:43-89
+receiver#com.onesignal.ADMMessageHandler$Receiver
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:40:9-46:20
+	android:permission
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:40:75-139
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:40:19-74
+intent-filter#com.amazon.device.messaging.intent.RECEIVE+com.amazon.device.messaging.intent.REGISTRATION+com.easy.vizag
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:41:13-45:29
+action#com.amazon.device.messaging.intent.REGISTRATION
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:42:17-90
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:42:25-87
+action#com.amazon.device.messaging.intent.RECEIVE
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:43:17-85
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:43:25-82
+category#com.easy.vizag
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:44:17-59
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:44:27-56
+uses-sdk
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:48:5-74
+MERGED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:7:5-9:41
+MERGED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:7:5-9:41
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:5:5-7:41
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:5:5-7:41
+MERGED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.4.aar\2bae795257482e58438d561de9695893\AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.4.aar\2bae795257482e58438d561de9695893\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:21:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2ede33c2284b05df1400eaea3a860226\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2ede33c2284b05df1400eaea3a860226\AndroidManifest.xml:7:5-43
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:5:5-44
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\609aca10101de22c4e1167566df2edf2\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.40.0.aar\609aca10101de22c4e1167566df2edf2\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-login-4.40.0.aar\c885c9d00a996b08dd4cfcd7311506a7\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-login-4.40.0.aar\c885c9d00a996b08dd4cfcd7311506a7\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-share-4.40.0.aar\02002cae9974b72db9537e3d9bcb392e\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-share-4.40.0.aar\02002cae9974b72db9537e3d9bcb392e\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\f7a4d7e54c96c4626c58d8468381ddec\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\f7a4d7e54c96c4626c58d8468381ddec\AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.android.gms:play-services-tagmanager:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-16.0.8.aar\be8cd707ff99952eb513f39fa5af9c18\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-16.0.8.aar\be8cd707ff99952eb513f39fa5af9c18\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\f42b17b07b02a87b36cb6ba6f64ee917\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\f42b17b07b02a87b36cb6ba6f64ee917\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-identity-15.0.1.aar\ef45f3312e05d4a368df9457b4b568e1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-identity-15.0.1.aar\ef45f3312e05d4a368df9457b4b568e1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-16.0.8.aar\8f8592685a2ad7f9bbc8af9ad91a9ce3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-16.0.8.aar\8f8592685a2ad7f9bbc8af9ad91a9ce3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.8.aar\a4f08427435423e466169fc4d9efcdd7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.8.aar\a4f08427435423e466169fc4d9efcdd7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\29f82727f4f9562250e9c461399c74e1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\29f82727f4f9562250e9c461399c74e1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\f67c885b91ef69ccbc8c175e2e74537c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\f67c885b91ef69ccbc8c175e2e74537c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-16.4.0.aar\79b14ef15bb2b6d0ad2f7146e2256907\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-16.4.0.aar\79b14ef15bb2b6d0ad2f7146e2256907\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\f8f52e4c2c74d66acea026113154a747\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\f8f52e4c2c74d66acea026113154a747\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\6bf96695be70bd35ca2e908d62c42b85\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\6bf96695be70bd35ca2e908d62c42b85\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-config:16.5.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-config-16.5.0.aar\fe3cc832f92baa577be907162d690870\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-config:16.5.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-config-16.5.0.aar\fe3cc832f92baa577be907162d690870\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\9a0e2607392f96a8cd12c15ac16446f0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\9a0e2607392f96a8cd12c15ac16446f0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\dbebc50f3aa3ab8e541120bdf66b8966\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\dbebc50f3aa3ab8e541120bdf66b8966\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\3dfafa7f6d3801c5ce1c49275427fe80\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-16.0.0.aar\3dfafa7f6d3801c5ce1c49275427fe80\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-16.0.0.aar\88e15fa95f2941be851063f612775e6e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-phenotype-16.0.0.aar\88e15fa95f2941be851063f612775e6e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-15.0.1.aar\13076b821b1e76f27c61660742f04c92\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-15.0.1.aar\13076b821b1e76f27c61660742f04c92\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-15.0.1.aar\02a282fe54b83dec815281450617173d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-15.0.1.aar\02a282fe54b83dec815281450617173d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\f61bdba9582b2dd0de389bae78d6654a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\f61bdba9582b2dd0de389bae78d6654a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\9921610118370c2ec01ca504496d78a5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\9921610118370c2ec01ca504496d78a5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\9b6b51c30721dc75bd0de6eb1a3ac994\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\9b6b51c30721dc75bd0de6eb1a3ac994\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.4.0.aar\9881ea5a7d13a69916c0777d058ac8ab\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.4.0.aar\9881ea5a7d13a69916c0777d058ac8ab\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-abt:17.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-abt-17.1.0.aar\7ca3de08c579d1fe116c6db7a33f1f1a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-abt:17.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-abt-17.1.0.aar\7ca3de08c579d1fe116c6db7a33f1f1a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\32a15e66af072a74d2114bc2305d6c91\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\32a15e66af072a74d2114bc2305d6c91\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\ee418f1370be5e238b2af3d0c1af44dd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\ee418f1370be5e238b2af3d0c1af44dd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\d40e0d3eb2753e5e94ef8eed9f97d673\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\d40e0d3eb2753e5e94ef8eed9f97d673\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\7376ce7b06ad431e63d9077f6b9f3a70\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\7376ce7b06ad431e63d9077f6b9f3a70\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\81095ee381851571bf3c59c47748e9ca\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\81095ee381851571bf3c59c47748e9ca\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a41455e2b9fe222b3b7fa767c4127218\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a41455e2b9fe222b3b7fa767c4127218\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\e297c162ca39d8b8a766cb5eb9ec911b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\e297c162ca39d8b8a766cb5eb9ec911b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\3e47b5014a3991f269113772ce590cd0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\3e47b5014a3991f269113772ce590cd0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\68190ce1ebfe091c1c7c1be835ac7b6c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\68190ce1ebfe091c1c7c1be835ac7b6c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\7673de03eb28889af19ccd3a4ebd4b77\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\7673de03eb28889af19ccd3a4ebd4b77\AndroidManifest.xml:20:5-44
+MERGED from [:CordovaLib] C:\ionic\Grocer\platforms\android\CordovaLib\build\intermediates\manifests\full\release\AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] C:\ionic\Grocer\platforms\android\CordovaLib\build\intermediates\manifests\full\release\AndroidManifest.xml:25:5-44
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\988c510fdb17f1fa7b99ca53d81e60fc\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\988c510fdb17f1fa7b99ca53d81e60fc\AndroidManifest.xml:20:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\814d6c59bce276f690ecbb61b0ef3386\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\814d6c59bce276f690ecbb61b0ef3386\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\c946798fcd9636e9604712164a4675dd\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\c946798fcd9636e9604712164a4675dd\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\6342e3f9a25347e8b310a9151d5794b0\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\6342e3f9a25347e8b310a9151d5794b0\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\1e2d2b5a836c230f70c9e8d122f52969\AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\1e2d2b5a836c230f70c9e8d122f52969\AndroidManifest.xml:27:5-43
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\8c5020cde8019db4ac49ae95e2ab1231\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\8c5020cde8019db4ac49ae95e2ab1231\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7cda399e3dc2211d325145bdbc83b957\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\7cda399e3dc2211d325145bdbc83b957\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\fa70d83dbc3130254bbef8ef4f8efa5d\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-places-4.40.0.aar\fa70d83dbc3130254bbef8ef4f8efa5d\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\22e3942776e7bee11dd64a78035bc779\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-applinks-4.40.0.aar\22e3942776e7bee11dd64a78035bc779\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\9d4ba57e875276aeb1bbe291b1140d4c\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-messenger-4.40.0.aar\9d4ba57e875276aeb1bbe291b1140d4c\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\66f9ffcfd4cae98f3f9270abee32a63d\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\66f9ffcfd4cae98f3f9270abee32a63d\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\92251703b8b1e4ba0f2004c8056ac6b8\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\92251703b8b1e4ba0f2004c8056ac6b8\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\855f8a10093ac956a82e5c42d90a6636\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\855f8a10093ac956a82e5c42d90a6636\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\426df36218b455dec6c0c4ae761ed14b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\426df36218b455dec6c0c4ae761ed14b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\c0c20faa6147d19ae13a8ab51721ed80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\c0c20faa6147d19ae13a8ab51721ed80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\f8fc79341c58a57201c9b2e3b7f7ba3a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\f8fc79341c58a57201c9b2e3b7f7ba3a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\03122a548b2fdefdfa3f105385d4bdb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\03122a548b2fdefdfa3f105385d4bdb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\69ae8b05690d26fb9486034e6822bc96\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\69ae8b05690d26fb9486034e6822bc96\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\0b11a2874d0f02efd37dc8184dd75430\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\0b11a2874d0f02efd37dc8184dd75430\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\203b0f221eaa99c4cf847bf090723dd3\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\203b0f221eaa99c4cf847bf090723dd3\AndroidManifest.xml:20:5-22:41
+	android:targetSdkVersion
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:48:42-71
+	android:minSdkVersion
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:48:15-41
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:49:5-81
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:49:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:50:5-80
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:50:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:51:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:9:5-79
+MERGED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:9:5-79
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:25:5-79
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-16.0.8.aar\8f8592685a2ad7f9bbc8af9ad91a9ce3\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-16.0.8.aar\8f8592685a2ad7f9bbc8af9ad91a9ce3\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\f67c885b91ef69ccbc8c175e2e74537c\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\f67c885b91ef69ccbc8c175e2e74537c\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\f8f52e4c2c74d66acea026113154a747\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\f8f52e4c2c74d66acea026113154a747\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\9b6b51c30721dc75bd0de6eb1a3ac994\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\9b6b51c30721dc75bd0de6eb1a3ac994\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:51:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:52:5-68
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:19:5-68
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:19:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-16.0.8.aar\8f8592685a2ad7f9bbc8af9ad91a9ce3\AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-analytics-impl-16.0.8.aar\8f8592685a2ad7f9bbc8af9ad91a9ce3\AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\f67c885b91ef69ccbc8c175e2e74537c\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\f67c885b91ef69ccbc8c175e2e74537c\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\f8f52e4c2c74d66acea026113154a747\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\f8f52e4c2c74d66acea026113154a747\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\9b6b51c30721dc75bd0de6eb1a3ac994\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\9b6b51c30721dc75bd0de6eb1a3ac994\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:52:22-65
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:53:5-71
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:53:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:54:5-74
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:54:22-71
+uses-permission#com.amazon.device.messaging.permission.RECEIVE
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:55:5-86
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:55:22-83
+permission#com.easy.vizag.permission.RECEIVE_ADM_MESSAGE
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:56:5-116
+	android:protectionLevel
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:56:78-113
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:56:17-77
+uses-permission#com.easy.vizag.permission.RECEIVE_ADM_MESSAGE
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:57:5-85
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:57:22-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:13:13-123
+	android:resource
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:13:75-120
+	android:name
+		ADDED from C:\ionic\Grocer\platforms\android\app\src\main\AndroidManifest.xml:13:24-74
+uses-permission#android.permission.CAMERA
+ADDED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:11:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:12:5-66
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:24:5-66
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:12:22-63
+uses-feature#android.hardware.camera
+ADDED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:15:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:18:9-57
+activity#io.card.payment.CardIOActivity
+ADDED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:22:9-24:66
+	android:configChanges
+		ADDED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:24:13-63
+	android:name
+		ADDED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:23:13-58
+activity#io.card.payment.DataEntryActivity
+ADDED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:25:9-70
+	android:name
+		ADDED from [io.card:android-sdk:5.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\android-sdk-5.4.0.aar\c810867d4ff6fc39b2eea34dec46f422\AndroidManifest.xml:25:19-67
+activity#com.paypal.android.sdk.payments.PaymentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:13:9-84
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:13:19-81
+activity#com.paypal.android.sdk.payments.PaymentMethodActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:14:9-90
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:14:19-87
+activity#com.paypal.android.sdk.payments.PaymentConfirmActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:15:9-91
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:15:19-88
+activity#com.paypal.android.sdk.payments.LoginActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:16:9-82
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:16:19-79
+activity#com.paypal.android.sdk.payments.PayPalFuturePaymentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:17:9-96
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:17:19-93
+activity#com.paypal.android.sdk.payments.FuturePaymentConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:18:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:18:19-94
+activity#com.paypal.android.sdk.payments.FuturePaymentInfoActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:19:9-94
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:19:19-91
+activity#com.paypal.android.sdk.payments.PayPalProfileSharingActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:20:9-97
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:20:19-94
+activity#com.paypal.android.sdk.payments.ProfileSharingConsentActivity
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:21:9-98
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:21:19-95
+service#com.paypal.android.sdk.payments.PayPalService
+ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.paypal.sdk:paypal-android-sdk:2.15.3] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\paypal-android-sdk-2.15.3.aar\6a4268cdaae22853c5945e079391b7ef\AndroidManifest.xml:24:13-73
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.4.aar\2bae795257482e58438d561de9695893\AndroidManifest.xml:19:5-86
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:32:5-86
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:32:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.4.aar\2bae795257482e58438d561de9695893\AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.4.aar\2bae795257482e58438d561de9695893\AndroidManifest.xml:20:5-87
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:33:5-87
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:33:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.4.aar\2bae795257482e58438d561de9695893\AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.4.aar\2bae795257482e58438d561de9695893\AndroidManifest.xml:23:5-81
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:34:5-81
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.4.aar\2bae795257482e58438d561de9695893\AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.4.aar\2bae795257482e58438d561de9695893\AndroidManifest.xml:24:5-83
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:35:5-83
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:35:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.4.aar\2bae795257482e58438d561de9695893\AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.4.aar\2bae795257482e58438d561de9695893\AndroidManifest.xml:27:5-88
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:36:5-88
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:36:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.4.aar\2bae795257482e58438d561de9695893\AndroidManifest.xml:27:22-85
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.4.aar\2bae795257482e58438d561de9695893\AndroidManifest.xml:30:5-84
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:38:5-84
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:38:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.4.aar\2bae795257482e58438d561de9695893\AndroidManifest.xml:30:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.4.aar\2bae795257482e58438d561de9695893\AndroidManifest.xml:33:5-83
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:39:5-83
+MERGED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:39:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.4.aar\2bae795257482e58438d561de9695893\AndroidManifest.xml:33:22-80
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:34:9-38:19
+MERGED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:34:9-38:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\f67c885b91ef69ccbc8c175e2e74537c\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\f67c885b91ef69ccbc8c175e2e74537c\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-config:16.5.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-config-16.5.0.aar\fe3cc832f92baa577be907162d690870\AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-config:16.5.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-config-16.5.0.aar\fe3cc832f92baa577be907162d690870\AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-abt:17.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-abt-17.1.0.aar\7ca3de08c579d1fe116c6db7a33f1f1a\AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-abt:17.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-abt-17.1.0.aar\7ca3de08c579d1fe116c6db7a33f1f1a\AndroidManifest.xml:8:9-12:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\c7ddc5311d6f6c2dce7eb5bec65cd9c5\AndroidManifest.xml:37:17-109
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2ede33c2284b05df1400eaea3a860226\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2ede33c2284b05df1400eaea3a860226\AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2ede33c2284b05df1400eaea3a860226\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2ede33c2284b05df1400eaea3a860226\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2ede33c2284b05df1400eaea3a860226\AndroidManifest.xml:13:13-75
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:8:5-10:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:10:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:9:9-63
+permission#com.easy.vizag.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:8:5-10:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:10:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:9:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:12:22-76
+uses-permission#com.easy.vizag.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:12:22-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:18:5-82
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:18:22-79
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:30:22-78
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:37:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:37:22-89
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:40:5-91
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:40:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:41:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:41:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:42:5-93
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:42:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:43:5-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:43:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:44:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:44:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:45:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:45:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:46:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:46:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:47:5-89
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:47:22-86
+meta-data#onesignal_app_id
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:50:9-52:51
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:52:13-48
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:51:13-44
+meta-data#onesignal_google_project_number
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:54:9-56:70
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:56:13-67
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:55:13-59
+receiver#com.onesignal.GcmBroadcastReceiver
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:58:9-68:20
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:60:13-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:59:13-62
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:63:13-67:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:63:28-50
+intent-filter#com.easy.vizag+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:63:13-67:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:63:28-50
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:64:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:64:25-78
+category#${applicationId}
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:66:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:66:27-58
+receiver#com.onesignal.NotificationOpenedReceiver
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:69:9-77
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:69:19-74
+service#com.onesignal.GcmIntentService
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:71:9-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:71:18-63
+service#com.onesignal.GcmIntentJobService
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:72:9-74:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:74:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:73:13-61
+service#com.onesignal.RestoreJobService
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:75:9-77:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:77:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:76:13-59
+service#com.onesignal.RestoreKickoffJobService
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:78:9-80:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:80:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:79:13-66
+service#com.onesignal.SyncService
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:81:9-83:43
+	android:stopWithTask
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:83:13-40
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:82:13-53
+service#com.onesignal.SyncJobService
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:84:9-86:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:86:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:85:13-56
+activity#com.onesignal.PermissionsActivity
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:88:9-90:75
+	android:theme
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:90:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:89:13-61
+service#com.onesignal.NotificationRestoreService
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:92:9-76
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:92:18-73
+receiver#com.onesignal.BootUpReceiver
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:94:9-99:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:94:19-62
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:95:13-98:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:96:17-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:96:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:97:25-79
+receiver#com.onesignal.UpgradeReceiver
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:100:9-104:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:100:19-63
+intent-filter#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:101:13-103:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:102:17-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.10.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\OneSignal-3.10.5.aar\92a5dc8112ca995c4862214605808384\AndroidManifest.xml:102:25-81
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\f7a4d7e54c96c4626c58d8468381ddec\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\f7a4d7e54c96c4626c58d8468381ddec\AndroidManifest.xml:33:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\f7a4d7e54c96c4626c58d8468381ddec\AndroidManifest.xml:34:9-67
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-common-4.40.0.aar\f7a4d7e54c96c4626c58d8468381ddec\AndroidManifest.xml:34:19-64
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:23:5-98
+	android:name
+		ADDED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:23:22-95
+provider#com.google.firebase.perf.provider.FirebasePerfProvider
+ADDED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:28:9-32:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:30:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:31:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:29:13-82
+meta-data#com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar
+ADDED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-perf:16.2.5] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-perf-16.2.5.aar\c00aad73b2eeaadaeff912660d4f640c\AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\f42b17b07b02a87b36cb6ba6f64ee917\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\f42b17b07b02a87b36cb6ba6f64ee917\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\f42b17b07b02a87b36cb6ba6f64ee917\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\f42b17b07b02a87b36cb6ba6f64ee917\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\f42b17b07b02a87b36cb6ba6f64ee917\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\f42b17b07b02a87b36cb6ba6f64ee917\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\f42b17b07b02a87b36cb6ba6f64ee917\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\f42b17b07b02a87b36cb6ba6f64ee917\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\f42b17b07b02a87b36cb6ba6f64ee917\AndroidManifest.xml:34:13-89
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:27:9-30:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:29:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:28:13-79
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:32:9-44:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:35:13-37
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:34:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:33:13-87
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:36:13-43:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:37:17-72
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:37:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:39:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:41:17-76
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:41:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:42:17-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:16.0.8] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-tagmanager-api-16.0.8.aar\de37f533903378e1b0f6252cf0a758c5\AndroidManifest.xml:42:27-75
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\f8f52e4c2c74d66acea026113154a747\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\f8f52e4c2c74d66acea026113154a747\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\f8f52e4c2c74d66acea026113154a747\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\f8f52e4c2c74d66acea026113154a747\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:35:13-100
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\7b19fe484524b0fc19c654af781ddbc6\AndroidManifest.xml:49:13-87
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\f67c885b91ef69ccbc8c175e2e74537c\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\f67c885b91ef69ccbc8c175e2e74537c\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\f67c885b91ef69ccbc8c175e2e74537c\AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar
+ADDED from [com.google.firebase:firebase-config:16.5.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-config-16.5.0.aar\fe3cc832f92baa577be907162d690870\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [com.google.firebase:firebase-config:16.5.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-config-16.5.0.aar\fe3cc832f92baa577be907162d690870\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-config:16.5.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-config-16.5.0.aar\fe3cc832f92baa577be907162d690870\AndroidManifest.xml:10:17-117
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\9a0e2607392f96a8cd12c15ac16446f0\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\9a0e2607392f96a8cd12c15ac16446f0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\9a0e2607392f96a8cd12c15ac16446f0\AndroidManifest.xml:29:13-82
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:38:13-78
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:41:13-43:29
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\0dcbc32084d91c9faa1c07a369d808b4\AndroidManifest.xml:51:13-77
+meta-data#com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar
+ADDED from [com.google.firebase:firebase-abt:17.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-abt-17.1.0.aar\7ca3de08c579d1fe116c6db7a33f1f1a\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [com.google.firebase:firebase-abt:17.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-abt-17.1.0.aar\7ca3de08c579d1fe116c6db7a33f1f1a\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-abt:17.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-abt-17.1.0.aar\7ca3de08c579d1fe116c6db7a33f1f1a\AndroidManifest.xml:10:17-109
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\7376ce7b06ad431e63d9077f6b9f3a70\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\7376ce7b06ad431e63d9077f6b9f3a70\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\7376ce7b06ad431e63d9077f6b9f3a70\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\7376ce7b06ad431e63d9077f6b9f3a70\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\7376ce7b06ad431e63d9077f6b9f3a70\AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a41455e2b9fe222b3b7fa767c4127218\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a41455e2b9fe222b3b7fa767c4127218\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a41455e2b9fe222b3b7fa767c4127218\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a41455e2b9fe222b3b7fa767c4127218\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\3e47b5014a3991f269113772ce590cd0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\3e47b5014a3991f269113772ce590cd0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\3e47b5014a3991f269113772ce590cd0\AndroidManifest.xml:24:13-58
+provider#com.facebook.marketing.internal.MarketingInitProvider
+ADDED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\66f9ffcfd4cae98f3f9270abee32a63d\AndroidManifest.xml:29:9-32:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\66f9ffcfd4cae98f3f9270abee32a63d\AndroidManifest.xml:31:13-73
+	android:exported
+		ADDED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\66f9ffcfd4cae98f3f9270abee32a63d\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-marketing:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-marketing-4.40.0.aar\66f9ffcfd4cae98f3f9270abee32a63d\AndroidManifest.xml:30:13-81
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\92251703b8b1e4ba0f2004c8056ac6b8\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\92251703b8b1e4ba0f2004c8056ac6b8\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\92251703b8b1e4ba0f2004c8056ac6b8\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\92251703b8b1e4ba0f2004c8056ac6b8\AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\92251703b8b1e4ba0f2004c8056ac6b8\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\92251703b8b1e4ba0f2004c8056ac6b8\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\92251703b8b1e4ba0f2004c8056ac6b8\AndroidManifest.xml:45:13-86
+intent-filter#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\92251703b8b1e4ba0f2004c8056ac6b8\AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\92251703b8b1e4ba0f2004c8056ac6b8\AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] C:\Users\Alcatraj\.gradle\caches\transforms-1\files-1.1\facebook-core-4.40.0.aar\92251703b8b1e4ba0f2004c8056ac6b8\AndroidManifest.xml:48:25-92

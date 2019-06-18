@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title text-center>{{config.appName}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="form" padding-left padding-right>
+    <p text-center>Please provide your Mobile number <br />for OTP Verification</p>
+    <ion-list>
+      <ion-item>
+        <ion-label>Country</ion-label>
+        <ion-select [(ngModel)]="countryCode" placeholder="Select">
+          <ion-option value="91" >India</ion-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label>Mobile no.</ion-label>
+        <ion-input type="tel" text-right placeholder="Phone Number" [(ngModel)]="registerRequest.username"
+          (ngModelChange)="checkNumber($event)"></ion-input>
+      </ion-item>
+    </ion-list>
+    <button ion-button full class="bg-thime btn-round btn-text" (click)="createUser()" [disabled]="buttonDisabled">
+      Continue
+    </button>
+  </div>
+</ion-content>

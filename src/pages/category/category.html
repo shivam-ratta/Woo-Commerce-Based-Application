@@ -1,0 +1,30 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <img src="assets/imgs/ic_menu.png">
+        </button>
+        <ion-title>{{ 'home_cat_title' | translate }}
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content class="bg-light">
+    <div class="all-products">
+        <div class="tabs-contant">
+            <ion-segment *ngFor="let cats of categoriesAll">
+                <ion-segment-button [ngClass]="(cats[0].id == catsToShow[0].id) ? 'active' : 'blank_class'" [innerHTML]="cats[0].name"
+                    (click)="showCats(cats)">
+                </ion-segment-button>
+            </ion-segment>
+        </div>
+        <div class="all-items">
+            <ion-list>
+                <ion-item *ngFor="let cat of catsToShow">
+                    <p class="" *ngIf="cat.parent != 0" (click)="shirtsPage(cat)">
+                        <span [innerHTML]="cat.name"></span>
+                        <ion-icon name="ios-arrow-forward-outline" text-right class="icon"></ion-icon>
+                    </p>
+                </ion-item>
+            </ion-list>
+        </div>
+    </div>
+</ion-content>

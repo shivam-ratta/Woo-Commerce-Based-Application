@@ -1,0 +1,77 @@
+<ion-header class="bg-thime">
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <img src="assets/imgs/ic_menu.png">
+        </button>
+        <ion-title>{{ 'nav_title_help_center' | translate }}
+            <!-- <span float-right>
+                <ion-icon name="ios-cart-outline" class="icon" (click)="cartPage()"></ion-icon>
+            </span> -->
+        </ion-title>
+    </ion-navbar>
+    <!--    <ion-searchbar (ionInput)="getItems($event)" (click)="searchPage()"></ion-searchbar>-->
+    <ion-list>
+        <ion-item *ngFor="let item of items">
+            {{ item }}
+        </ion-item>
+    </ion-list>
+</ion-header>
+
+<ion-content class="bg-light">
+    <h6 padding-left>{{ 'faq' | translate }}</h6>
+    <ion-card>
+        <ion-card-header (click)="faqExpandToggle1()">
+            {{ 'faq_delivery_title' | translate }}
+            <ion-icon *ngIf="!faqExpand1" name="ios-arrow-down-outline" float-right></ion-icon>
+            <ion-icon *ngIf="faqExpand1" name="ios-arrow-up-outline" float-right></ion-icon>
+        </ion-card-header>
+        <ion-card-content *ngIf="faqExpand1" class="text-light">
+
+                All deliveries are made through a 3rd party delivery company closer to you. We make sure you get your items as quickly as possible, that is why we use trusted delivery companies closer to you. All items are delivered safely and on time. Delivery takes between 30 minutes to a maximum period of 6hours. More information about deliveries procedure, timing or questions, kindly forward all messages to sales@EasyVizag.com
+
+                
+           </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            {{ 'faq_order_cancel_title' | translate }}
+            <ion-icon *ngIf="!faqExpand2" name="ios-arrow-down-outline" float-right (click)="faqExpandToggle2()"></ion-icon>
+            <ion-icon *ngIf="faqExpand2" name="ios-arrow-up-outline" float-right (click)="faqExpandToggle2()"></ion-icon>
+        </ion-card-header>
+        <ion-card-content *ngIf="faqExpand2" class="text-light">
+                Its advisable to cancel any order before finalizing your order for payment. Any order not finalized 5 minutes after payment can not be refunded or exchanged for something else in the store, and therefore the items will be delivered as ordered. No refund or exchange is accepted by EasyVizagy stores. Please kindly crosscheck all orders and recheck after adding to cart. We are not responsible for any mistake made when placing your order and we do not refund or exchange in such cases. For more information please contact sales@EasyVizag.com
+
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            {{ 'faq_payments_title' | translate }}
+            <ion-icon *ngIf="!faqExpand3" name="ios-arrow-down-outline" float-right (click)="faqExpandToggle3()"></ion-icon>
+            <ion-icon *ngIf="faqExpand3" name="ios-arrow-up-outline" float-right (click)="faqExpandToggle3()"></ion-icon>
+        </ion-card-header>
+        <ion-card-content *ngIf="faqExpand3" class="text-light">
+           
+
+                All payments are currently made by bank transfer. Further update on app will usher in payment by debit / credit card and paypal. Note : After an order has been finalized and placed, the EasyVizagy shopper is expected to pay the total amount to our account number and also send the payment name with order number to us on call / whatsapp/ Text. EasyVizag. Or email to sales@EasyVizag.com.ng. A confirmation message will be sent and order will be delivered. For further information or assistance on payment kindly contact support@EasyVizag.com
+
+        
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+            {{ 'faq_support_title' | translate }}
+            <ion-icon *ngIf="!faqExpand4" name="ios-arrow-down-outline" float-right (click)="faqExpandToggle4()"></ion-icon>
+            <ion-icon *ngIf="faqExpand4" name="ios-arrow-up-outline" float-right (click)="faqExpandToggle4()"></ion-icon>
+        </ion-card-header>
+        <ion-card-content *ngIf="faqExpand4" class="text-light">
+            
+
+                Our support team is available online and offline to answer your every questions. You can also place your order through call EasyVizag or whatsapp. Or simply send an email to support@EasyVizag.com. Your items will be delivered as quickly as possible.
+
+        
+        </ion-card-content>
+    </ion-card>
+</ion-content>

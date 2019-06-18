@@ -1,0 +1,36 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon class="menu-icon">
+                <img src="assets/imgs/ic_menu.png">
+            </ion-icon>
+        </button>
+        <ion-title>{{ 'nav_title_my_address' | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <div class="address-section bg-light" style="min-height: calc(100vh - 56px);" padding>
+        <p text-center padding-bottom margin-bottom>{{ 'my_address_heading' | translate }}</p>
+        <ion-card>
+            <ion-card-content *ngIf="!addresses || !addresses.length">
+                <div class="addres-detail" (click)="addressNew()">
+                    <h3 class="text-light">
+                        <ion-icon name="ios-add-circle-outline" class="icon-position text-light"></ion-icon>{{ 'my_address_add_new' | translate }}
+                    </h3>
+                </div>
+            </ion-card-content>
+            <ion-card-content *ngIf="addresses && addresses.length">
+                <div *ngFor="let address of addresses" class="addres-detail" (click)="addressEditSelect(address)">
+                    <h3>
+                        <ion-icon name="ios-pin-outline" class="icon-position"></ion-icon>{{address.first_name}}
+                    </h3>
+                    <p>{{address.address_1}}, {{address.address_2}}
+                        <br> {{address.city}}</p>
+                    <p>{{address.phone}}</p>
+                </div>
+            </ion-card-content>
+        </ion-card>
+        <h4 text-center padding-bottom margin-bottom (click)="addressNew()">{{ 'my_address_add_new' | translate }}</h4>
+    </div>
+</ion-content>

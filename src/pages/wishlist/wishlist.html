@@ -1,0 +1,58 @@
+<ion-header class="bg-thime">
+    <ion-navbar>
+        <button ion-button menuToggle>
+     <img src="assets/imgs/ic_menu.png">
+    </button>
+        <ion-title>{{ 'wishlist' | translate }}
+            <span float-right>                  
+              <ion-icon name="ios-cart-outline" class="icon" (click)="cartPage()"></ion-icon>
+            </span>
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="bg-light">
+	<ion-card *ngIf="!favorites.length">
+        <ion-card-content>
+			<h3>{{ 'wishlist_none' | translate }}</h3>
+		</ion-card-content>
+	</ion-card>
+    <ion-card *ngFor="let fav of favorites">
+        <ion-card-content>
+            <ion-row>
+                <ion-col col-3>
+                    <div *ngIf="fav.images && fav.images.length" class="img-box" (click)="itemdetailPage(pro)">
+                        <img data-src="{{fav.images[0].src}}">
+                    </div>
+                    <div *ngIf="fav.images == null || fav.images.length == 0" class="img-box" (click)="itemdetailPage(pro)">
+                        <img src="assets/imgs/suit_PNG8132.png">
+                    </div>
+                </ion-col>
+                <ion-col col-9>
+                    <h4>{{fav.name}}
+                        <ion-icon name="ios-trash-outline" class="icon text-light" click)="removeFavorite(pro)"></ion-icon>
+                    </h4>
+                    <div class="rateing">
+                        <p class=text-light>{{fav.categories[0].name}}</p>
+                        <div class="card-btn" padding-top>
+                            <div class="">
+                                <div float-left>
+                                    <small class="text-white bg-green" float-left>{{fav.average_rating}} <ion-icon name="md-star"></ion-icon></small>
+                                    <span class="text-light small-text">({{fav.rating_count}} reviews)</span>
+                                </div>
+                                <div style="display: flex;" float-right>
+                                    <div class="price text-light mr-5">
+                                        <img src="assets/imgs/rupee-light.png" class="rupee-icon" [innerHTML]="fav.regular_price_html">
+                                    </div>
+                                    <div class="price text-sky">
+                                        <img src="assets/imgs/rupee-sky.png" class="rupee-icon" [innerHTML]="fav.sale_price_html">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ion-col>
+            </ion-row>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

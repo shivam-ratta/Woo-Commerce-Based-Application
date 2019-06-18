@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "456795605868",
+    "firebase_url": "https://easy-vizag.firebaseio.com",
+    "project_id": "easy-vizag",
+    "storage_bucket": "easy-vizag.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456795605868:android:0009e96b017a43c1",
+        "android_client_info": {
+          "package_name": "com.easy.vizag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456795605868-c4jrmrqcrogarbkcdg94m48sravd31me.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.easy.vizag",
+            "certificate_hash": "4eac9011160698ae40ca05b2ed8e5e4c40f8b494"
+          }
+        },
+        {
+          "client_id": "456795605868-bb5o0l9f8fd9o30cueb1eloi5tcb2034.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaLCBagxgGbInjpThTuVdjrnVKn6dV0Xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456795605868-bb5o0l9f8fd9o30cueb1eloi5tcb2034.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

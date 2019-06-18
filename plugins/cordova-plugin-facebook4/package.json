@@ -1,0 +1,59 @@
+{
+  "_from": "cordova-plugin-facebook4",
+  "_id": "cordova-plugin-facebook4@4.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-vT00PTPg2Qd+IAgUqrekweHa3Em7QSRyj2YpwQupb43KBjkLNCGOaQk0a+OSDQu4mkr4atc1snZ3gQzrf4MGFQ==",
+  "_location": "/cordova-plugin-facebook4",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-facebook4",
+    "name": "cordova-plugin-facebook4",
+    "escapedName": "cordova-plugin-facebook4",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-facebook4/-/cordova-plugin-facebook4-4.2.1.tgz",
+  "_shasum": "ee40c3af5ff4928b4046102fb21edb0dfae82444",
+  "_spec": "cordova-plugin-facebook4",
+  "_where": "C:\\ionic\\Grocer",
+  "bugs": {
+    "url": "https://github.com/jeduan/cordova-plugin-facebook4/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-facebook4",
+    "platforms": [
+      "android",
+      "ios",
+      "browser"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Facebook SDK 4 Plugin",
+  "homepage": "https://github.com/jeduan/cordova-plugin-facebook4#readme",
+  "keywords": [
+    "cordova",
+    "facebook",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-browser",
+    "facebook-sdk",
+    "social",
+    "sharing"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-facebook4",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeduan/cordova-plugin-facebook4.git"
+  },
+  "version": "4.2.1"
+}

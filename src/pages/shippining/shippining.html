@@ -1,0 +1,124 @@
+<ion-header>
+    <ion-navbar hideBackButton="true">
+        <button style="background-color:transparent;" ion-button (click)="goBack()">
+            <ion-icon style="color: #ffffff !important; font-size:2.4rem;" name="md-arrow-back"></ion-icon>
+        </button>
+        <ion-title>{{ 'confirm_order_title' | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="bg-light">
+    <div class="address-section">
+        <ion-row text-center class="status">
+            <ion-col class="complate">
+                <ion-icon name="ios-checkmark-circle"></ion-icon>
+                <span>{{ 'confirm_order_tab_title_1' | translate }}</span>
+            </ion-col>
+            <ion-col class="processing">
+                <ion-icon name="md-radio-button-off"></ion-icon>
+                <span>{{ 'confirm_order_tab_title_2' | translate }}</span>
+            </ion-col>
+            <ion-col class="panding">
+                <ion-icon name="ion-record"></ion-icon>
+                <span>{{ 'confirm_order_tab_title_3' | translate }}</span>
+            </ion-col>
+        </ion-row>
+        <ion-card>
+            <ion-card-header>
+                <p>
+                    {{ 'confirm_order_address_title' | translate }}
+                    <span class="text-sky" (click)="addressPage()">{{addressChangeText}}
+                        <ion-icon name="ios-arrow-forward" class="icon"></ion-icon>
+                    </span>
+                </p>
+            </ion-card-header>
+            <ion-card-content *ngIf="!selectedAddress">
+                <div class="addres-detail">
+                    <h3>
+                        <ion-icon name="ios-pin-outline" class="icon-position"></ion-icon>{{ 'confirm_order_address_no' | translate }}
+                    </h3>
+                    <p>{{ 'confirm_order_address_add' | translate }}</p>
+                </div>
+            </ion-card-content>
+            <ion-card-content *ngIf="selectedAddress">
+                <div class="addres-detail">
+                    <h3>
+                        <ion-icon name="ios-pin-outline" class="icon-position"></ion-icon>{{selectedAddress.first_name}}
+                    </h3>
+                    <p>{{selectedAddress.address_1}}, {{selectedAddress.address_2}}
+                        <br> {{selectedAddress.city}}</p>
+                    <p>{{selectedAddress.phone}}</p>
+                </div>
+            </ion-card-content>
+        </ion-card>
+    </div>
+    <div class="your-items">
+        <ion-card *ngIf="cartItems && cartItems.length">
+            <ion-card-header>
+                <p>{{ 'confirm_order_items_title' | translate }}</p>
+            </ion-card-header>
+            <ion-card-content *ngFor="let item of cartItems">
+                <ion-row>
+                    <ion-col col-4>
+                        <div *ngIf="item.product.images && item.product.images.length" class="img-box">
+                            <img data-src="{{item.product.images[0].src}}">
+                        </div>
+                        <div *ngIf="item.product.images == null || item.product.images.length == 0" class="img-box">
+                            <img src="assets/imgs/suit_PNG8132.png">
+                        </div>
+                    </ion-col>
+                    <ion-col col-8>
+                        <h4>{{item.product.name}}</h4>
+                        <p class="d-flex" float-left [innerHTML]="item.product.sale_price_html">
+                        </p>
+                        <div class="price">
+                            <div>
+                                <div class="d-flex btn-grup" float-right>
+                                    <div class="btn" (click)="decrementItem(item.product)">
+                                        -
+                                    </div>
+                                    <span>{{item.quantity}}</span>
+                                    <div class="btn" (click)="incrementItem(item.product)">
+                                        +
+                                    </div>
+                                </div>
+                                <div style="display: block;clear: both"></div>
+                                <p text-right class="text-sky" (click)="removeItem(item.product)">
+                                    {{ 'confirm_order_items_remove' | translate }}
+                                </p>
+                            </div>
+                        </div>
+                    </ion-col>
+                </ion-row>
+            </ion-card-content>
+        </ion-card>
+    </div>
+    <div class="spacebar-bottom"></div>
+    <div class="receipt btn-fisx-bottom">
+        <ion-card>
+            <ion-card-header>
+                <p>{{ 'confirm_order_items_price' | translate }}
+                    <span text-right [innerHTML]="total_items_html">
+                    </span>
+                </p>
+                <p>{{ 'confirm_order_items_delivery' | translate }}
+                    <span text-right [innerHTML]="deliveryPayble">
+                    </span>
+                </p>
+                <p *ngIf="coupon">{{ 'confirm_order_coupon_to_apply' | translate : {code:coupon.code} }}
+                    <span text-right [innerHTML]="couponAmount">
+                    </span>
+                    <ion-icon name="md-close" class="cross" (click)="removeCoupon()"></ion-icon>
+                </p>
+                <div *ngIf="!coupon" text-center class="text-sky" (click)="codePage()">{{ 'confirm_order_coupon' | translate }}</div>
+            </ion-card-header>
+            <ion-card-content>
+                <p>{{ 'confirm_order_payble' | translate }}
+                    <span text-right [innerHTML]="total_html">
+                    </span>
+                </p>
+                <button ion-button full class="bg-green btn-round green-shadow btn-text" (click)="paymentPage()" style="width:100%">{{ 'continue' | translate }}</button>
+            </ion-card-content>
+        </ion-card>
+    </div>
+</ion-content>

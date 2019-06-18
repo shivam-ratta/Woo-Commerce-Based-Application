@@ -1,0 +1,94 @@
+<ion-header class="bg-thime">
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <img src="assets/imgs/ic_menu.png">
+        </button>
+        <ion-title>{{ 'nav_title_my_account' | translate }}
+            <!-- <span float-right>
+                <ion-icon padding-right name="ios-search-outline" class="icon" (click)="searchPage()"></ion-icon>
+                <ion-icon name="ios-cart-outline" class="icon" (click)="cartPage()"></ion-icon>
+            </span> -->
+        </ion-title>
+    </ion-navbar>
+    <ion-toolbar no-border-top class="tab-bar">
+        <ion-segment [(ngModel)]="account">
+            <ion-segment-button value="profile">
+                {{ 'profile' | translate }}
+            </ion-segment-button>
+            <ion-segment-button value="address">
+                {{ 'address_default' | translate }}
+            </ion-segment-button>
+        </ion-segment>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div [ngSwitch]="account">
+        <div *ngSwitchCase="'profile'" class="profile-section">
+            <ion-list>
+                <ion-item>
+                    <ion-label floating>{{ 'phone' | translate }}</ion-label>
+                    <ion-input type="text" [readonly]="isReadonly()" [(ngModel)]="user.username"></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-label floating>{{ 'email' | translate }}</ion-label>
+                    <ion-input type="text" [readonly]="isReadonly()" [(ngModel)]="user.email"></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-label floating>{{ 'address_first_name' | translate }}</ion-label>
+                    <ion-input type="text" [(ngModel)]="user.first_name"></ion-input>
+                </ion-item>
+                <ion-item>
+                    <ion-label floating>{{ 'address_last_name' | translate }}</ion-label>
+                    <ion-input type="text" [(ngModel)]="user.last_name"></ion-input>
+                </ion-item>
+                <!-- <ion-item *ngIf="selectedAddress">
+                    <ion-label floating>{{ 'phone' | translate }}</ion-label>
+                    <ion-input type="text" [readonly]="isReadonly()" [(ngModel)]="selectedAddress.phone"></ion-input>
+                </ion-item> -->
+            </ion-list>
+            <div class="btn-fisx-bottom ">
+                <button ion-button full class="bg-thime btn-round btn-text" (click)="updateInfo()">{{ 'update_info' | translate }}</button>
+            </div>
+        </div>
+
+
+        <div *ngSwitchCase="'address'" class="address-section bg-light" style="min-height: calc(100vh - 98px);">
+            <ion-card>
+                <p class="address-name" style="float:  right;position:  relative;top: 10px;right:  10px;">
+                    <span class="text-sky" (click)="addressPage()">{{addressChangeText}}
+                        <ion-icon name="ios-arrow-forward" class="icon"></ion-icon>
+                    </span>
+                </p>
+
+                <ion-card-content *ngIf="selectedAddress">
+                    <div class="addres-detail">
+                        <h3>
+                            <ion-icon name="ios-pin-outline" class="icon-position"></ion-icon>{{selectedAddress.first_name}}
+                        </h3>
+                        <p>{{selectedAddress.address_1}}
+                            <br> {{selectedAddress.city}}</p>
+                        <p>{{selectedAddress.phone}}</p>
+                    </div>
+                </ion-card-content>
+                <ion-card-content *ngIf="!selectedAddress">
+                    <div class="addres-detail">
+                        <h3>
+                            <ion-icon name="ios-pin-outline" class="icon-position"></ion-icon>{{ 'confirm_order_address_no' | translate }}
+                        </h3>
+                        <p>{{ 'confirm_order_address_add' | translate }}</p>
+                    </div>
+                </ion-card-content>
+            </ion-card>
+            <ion-card>
+                <ion-card-content *ngIf="!selectedAddress">
+                    <div class="addres-detail" (click)="addressPage()">
+                        <h3 class="text-light">
+                            <ion-icon name="ios-add-circle-outline" class="icon-position text-light"></ion-icon>{{ 'set_address_default' | translate }}
+                        </h3>
+                    </div>
+                </ion-card-content>
+            </ion-card>
+        </div>
+    </div>
+</ion-content>

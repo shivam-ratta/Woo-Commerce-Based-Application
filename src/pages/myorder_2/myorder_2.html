@@ -1,0 +1,42 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <img src="assets/imgs/ic_menu.png">
+        </button>
+        <ion-title>{{ 'nav_title_my_order' | translate }}
+            <!-- <span float-right>
+                <ion-icon padding-right name="ios-search-outline" class="icon" (click)="searchPage()"></ion-icon>
+                <ion-icon name="ios-cart-outline" class="icon" (click)="cartPage()"></ion-icon>
+            </span> -->
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="bg-light">
+    <ion-list>
+        <ion-card *ngFor="let order of orders">
+            <ion-card-content>
+                <ion-row *ngFor="let item of order.line_items">
+                    <ion-col>
+                        <h4 (click)="itemdetailPage(item)">{{item.name}}</h4>
+                        <div class="card-btn" float-right>
+                            <small *ngIf="order.status == 'on-hold' || order.status == 'pending'|| order.status == 'processing'" class="text-sky" (click)="cancelOrder(order)">Cancel order</small>
+                            <small class="text-green">{{order.status}}</small>
+                        </div>
+                        <div class="rate">
+                            <p class="text-light" style="display:flex;">{{ 'order_date_on' | translate }} {{order.date_created}}
+                                <strong class="price text-sky" style="margin-left:auto;"
+                                    [innerHTML]="item.price_html"></strong>
+                            </p>
+
+                        </div>
+                    </ion-col>
+                </ion-row>
+
+            </ion-card-content>
+        </ion-card>
+    </ion-list>
+    <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+        <ion-infinite-scroll-content></ion-infinite-scroll-content>
+    </ion-infinite-scroll>
+</ion-content>

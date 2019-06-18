@@ -1,0 +1,35 @@
+[2K[G[ERROR] Unable to find command: cor install @ionic-native/facebook@4.20.0
+
+        
+[2K[G   _             _
+  (_)           (_)
+   _  ___  _ __  _  ___
+  | |/ _ \| '_ \| |/ __|
+  | | (_) | | | | | (__
+  |_|\___/|_| |_|_|\___|  CLI PRO 3.9.2
+
+
+  Usage:
+
+    $ ionic <command> [<args>] [--help] [--verbose] [--quiet] [--no-interactive] [--confirm] [options]
+
+  Global Commands:
+
+    config <subcommand> ...... Manage CLI and project config values (subcommands: get, set)
+    docs ..................... Open the Ionic documentation website
+    info ..................... Print system/environment info
+    login .................... Login with your Ionic ID
+    ssh <subcommand> ......... Commands for configuring SSH keys (subcommands: add, delete, generate, list, setup, use)
+    start .................... Create a new project
+    telemetry ................ Opt in and out of telemetry
+
+  Project Commands:
+
+    build .................... Build web assets and prepare your app for any platform targets
+    cordova <subcommand> ..... Cordova functionality (subcommands: build, compile, emulate, platform, plugin, prepare, resources, run)
+    generate ................. Generate pipes, components, pages, directives, providers, and tabs (ionic-angular >= 3.0.0) (alias: g)
+    git <subcommand> ......... Commands relating to git (subcommands: remote)
+    link ..................... Connect your local app to Ionic
+    monitoring <subcommand> .. Commands relating to Ionic Pro error monitoring (subcommands: syncmaps)
+    serve .................... Start a local dev server for app dev/testing
+

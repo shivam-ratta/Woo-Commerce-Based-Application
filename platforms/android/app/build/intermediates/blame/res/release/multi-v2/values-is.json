@@ -1,0 +1,111 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\ionic\\Grocer\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-is\\values-is.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Alcatraj\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.6.0.aar\\9a0e2607392f96a8cd12c15ac16446f0\\res\\values-is\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "102",
+                        "endOffsets": "307"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4472",
+                        "endColumns": "106",
+                        "endOffsets": "4574"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alcatraj\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\69ae8b05690d26fb9486034e6822bc96\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "39",
+                        "startColumns": "4",
+                        "startOffsets": "4660",
+                        "endColumns": "100",
+                        "endOffsets": "4756"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alcatraj\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\7673de03eb28889af19ccd3a4ebd4b77\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,205,302,414,499,600,714,794,874,955,1065,1173,1271,1380,1479,1582,1737,1835",
+                        "endColumns": "99,96,111,84,100,113,79,79,80,109,107,97,108,98,102,154,97,80",
+                        "endOffsets": "200,297,409,494,595,709,789,869,950,1060,1168,1266,1375,1474,1577,1732,1830,1911"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,38",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,205,302,414,499,600,714,794,874,955,1065,1173,1271,1380,1479,1582,1737,4579",
+                        "endColumns": "99,96,111,84,100,113,79,79,80,109,107,97,108,98,102,154,97,80",
+                        "endOffsets": "200,297,409,494,595,709,789,869,950,1060,1168,1266,1375,1474,1577,1732,1830,4655"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alcatraj\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\a41455e2b9fe222b3b7fa767c4127218\\res\\values-is\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,349,535,658,765,965,1088,1223,1353,1566,1670,1858,1982,2183,2363,2453,2542",
+                        "endColumns": "103,185,122,106,199,122,134,129,212,103,187,123,200,179,89,88,103",
+                        "endOffsets": "348,534,657,764,964,1087,1222,1352,1565,1669,1857,1981,2182,2362,2452,2541,2645"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22,23,24,25,26,28,29,30,31,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1835,1943,2129,2256,2367,2567,2694,2833,3155,3368,3476,3664,3792,3993,4177,4271,4364",
+                        "endColumns": "107,185,126,110,199,126,138,133,212,107,187,127,200,183,93,92,107",
+                        "endOffsets": "1938,2124,2251,2362,2562,2689,2828,2962,3363,3471,3659,3787,3988,4172,4266,4359,4467"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alcatraj\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.2.0.aar\\3e47b5014a3991f269113772ce590cd0\\res\\values-is\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "187",
+                        "endOffsets": "434"
+                    },
+                    "to": {
+                        "startLines": "27",
+                        "startColumns": "4",
+                        "startOffsets": "2967",
+                        "endColumns": "187",
+                        "endOffsets": "3150"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Alcatraj\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-tagmanager-16.0.8.aar\\be8cd707ff99952eb513f39fa5af9c18\\res\\values-is\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "208,307,424",
+                        "endColumns": "98,116,95",
+                        "endOffsets": "306,423,519"
+                    },
+                    "to": {
+                        "startLines": "40,41,42",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "4761,4864,4985",
+                        "endColumns": "102,120,99",
+                        "endOffsets": "4859,4980,5080"
+                    }
+                }
+            ]
+        }
+    ]
+}

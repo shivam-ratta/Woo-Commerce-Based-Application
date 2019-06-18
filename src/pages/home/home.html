@@ -1,0 +1,101 @@
+<ion-header class="bg-thime">
+    <ion-navbar> <button float-right ion-button style="display: block  !important; background: none;" (click)="menuToggle()">
+            <img src="assets/imgs/ic_menu.png"> </button>
+        <ion-title>
+            <div class="logo">{{appTitle}}</div>
+            <div class="icon-box" (click)="cartPage()"> <img src="assets/imgs/ic_my_cart.png">
+                <ion-badge>{{cartTotal}}</ion-badge>
+            </div>
+        </ion-title>
+    </ion-navbar>
+    <ion-searchbar (ionInput)="getItems($event)" placeholder="{{ 'placeholder_search' | translate }}" (click)="searchPage()"></ion-searchbar>
+    <ion-list>
+        <ion-item *ngFor="let item of items"> </ion-item>
+    </ion-list>
+</ion-header>
+<ion-content style="background: #f9f9f9;">
+    <ion-slides autoplay="2000" loop="true" pager *ngIf="banners && banners.length" dir="ltr"> <span *ngFor="let slide of banners; let i = index">
+            <ion-slide *ngIf="i<5"> <img [src]="slide.img_src" class="slide-image" (click)="categoryPage(slide.catObj)" />
+            </ion-slide>
+        </span> </ion-slides>
+    <h4 text-center>{{ 'home_cat_title' | translate }}</h4>
+    <div class="bg-white">
+        <ion-row>
+            <ion-col class="item-boxs" col-4 (click)="subscriptionPage()">
+                <div class="item-box"> <img src="assets/imgs/fs.jpg" class="round">
+                    <p>Family Subscription</p>
+                </div>
+            </ion-col>
+            <ion-col class="item-boxs" col-4 (click)="chitPage()">
+                <div class="item-box"> <img src="assets/imgs/fc.jpg" class="round">
+                    <p>Annual Family Chit</p>
+                </div>
+            </ion-col>
+            <ion-col class="item-boxs" col-4 (click)="drivePage()">
+                <div class="item-box"> <img src="assets/imgs/sd.jpg" class="round">
+                    <p>Self-Driving Vehicles</p>
+                </div>
+            </ion-col>
+
+            <ion-col class="item-boxs" col-4 (click)="categoryPage()">
+                <div class="item-box"> <img src="assets/imgs/Groceries & Veggies.png" class="round">
+                    <p>Groceries & Veggies</p>
+                </div>
+            </ion-col>
+
+            <ion-col class="item-boxs" col-4 (click)="houseHoldPage()">
+                <div class="item-box"> <img src="assets/imgs/household services.png" class="round">
+                    <p>House Hold Services</p>
+                </div>
+            </ion-col>
+
+            <ion-col class="item-boxs" col-4 (click)="weddingPage()">
+                <div class="item-box"> <img src="assets/imgs/wedding & events.png" class="round">
+                    <p>Wedding & Events</p>
+                </div>
+            </ion-col>
+
+
+            <ion-col class="item-boxs" col-4 (click)="carServicingRepairs()">
+                <div class="item-box">
+                     <img src="assets/imgs/Car Servicing & repairs.png" class="round">
+                    <p>Car Servicing & Repairs </p>
+                </div>
+            </ion-col>
+
+            <ion-col class="item-boxs" col-4 (click)="categoryPage()">
+                <div class="item-box">
+                    <img src="assets/imgs/Food Delivery 2.png" class="round"> 
+                    <p>24 x 7 Food Delivery</p>
+                </div>
+            </ion-col>
+
+            <ion-col class="item-boxs" col-4 (click)="categoryPage()">
+                <div class="item-box">
+                    <img src="assets/imgs/fashion & apparael.jpeg" class="round">
+                    <p>Fashion & Apparel </p>
+                </div>
+            </ion-col>
+
+
+
+            <ion-col class="item-boxs" col-4 (click)="realEstatePage()">
+                <div class="item-box"> <img src="assets/imgs/Realestate.png" class="round">
+                    <p>Real Estate </p>
+                </div>
+            </ion-col>
+            <ion-slides autoplay="2000" loop="true" pager *ngIf="banners && banners.length" dir="ltr"> <span *ngFor="let slide of banners; let i = index">
+                    <ion-slide *ngIf="i>4"> <img [src]="slide.img_src" class="slide-image" (click)="categoryPage(slide.catObj)" />
+                    </ion-slide>
+                </span>
+            </ion-slides>
+            <ion-col *ngFor="let cat of categoriesAll; let j = index" class="item-boxs" col-4 (click)="categoryPage(cat)"
+                [class.hideIt]="j<9">
+                <div class="item-box"> <img *ngIf="cat.image != null" data-src="{{cat.image.src}}"> <img *ngIf="cat.image == null"
+                        src="assets/imgs/beverages.png">
+                    <p [innerHTML]="cat.name"></p>
+                </div>
+            </ion-col>
+        </ion-row>
+    </div>
+</ion-content>

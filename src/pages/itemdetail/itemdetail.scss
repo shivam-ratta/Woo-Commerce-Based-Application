@@ -1,0 +1,260 @@
+page-itemdetail {
+    .shadow-bottom {
+        box-shadow: 0 2px 7px 0px #b9b8b8;
+    }
+    .img-section {
+        background: $white-color;
+        margin-bottom: 5px;
+        position: relative;
+        padding: 23px 21px 13px 25px;
+        .img-box {
+            display: block;
+            max-width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            position: relative;
+            margin-bottom: 30px;
+            img {
+                position: absolute;
+                max-width: 100%;
+                max-height: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                padding: 5px;
+            }
+        }
+        .tab-btn-box {
+            position: absolute;
+            top: 15px;
+            right: 10px;
+            .tab-btn {
+                width: 50px;
+                height: 50px;
+                //                border: 1px solid #efefef;
+                margin-bottom: 5px;
+                position: relative;
+                img {
+                    position: absolute;
+                    max-width: 100%;
+                    max-height: 100%;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                    padding: 5px;
+                }
+            }
+        }
+        .d-flex {
+            display: flex;
+            font-size: 1.2rem;
+            line-height: 20px;
+            text-align: left;
+            font-weight: 500;
+            span.icon {
+                color: #ccc;
+                text-align: end;
+                margin-left: auto;
+                width: 16rem;
+                ion-icon {
+                    width: 50%;
+                    display: inline-block;
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    .about-section {
+        padding: 23px 25px 13px 25px;
+        margin-bottom: 5px;
+        ul {
+            margin: 0;
+            padding: 0;
+            .col {
+                padding: 0;
+            }
+        }
+        h3 {
+            font-size: 1.28rem;
+            font-weight: 700;
+            margin-top: 0;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 18px;
+            font-weight: 500;
+            color: #4f4f4f;
+            margin-bottom: 5px;
+            margin-left: 5px;
+        }
+    }
+    .price-section {
+        padding: 0px 10px 0px 25px;
+        position: fixed;
+        bottom: 0;
+        z-index: 99;
+        width: 100%;
+        box-shadow: 0px -4px 30px rgba(0, 0, 0, 0.2);
+        p {
+            font-size: 1.8rem;
+            margin-right: auto;
+            font-weight: 600;
+            span {
+                font-weight: 300 !important;
+                font-size: 1.2rem !important;
+                margin-left: 8px;
+            }
+        }
+        .btn-grup {
+            margin-left: auto;
+            span {
+                font-size: 1.2rem;
+                font-weight: 700;
+                margin: 0 10px;
+            }
+            .btn {
+                font-size: 2rem;
+                font-weight: 400;
+                width: 45px;
+                text-align: center;
+                border-radius: 5px;
+                line-height: 3.5rem;
+            }
+        }
+    }
+    .d-flex {
+        display: flex;
+        align-items: center;
+        span {
+            &.product_name {
+                font-size: 1.3rem;
+                line-height: 2rem;
+            }
+        }
+    }
+    .header {
+        .toolbar-title {
+            .icon-box {
+                ion-badge {
+                    background-color: #ff0000;
+                    position: absolute;
+                    text-align: center;
+                    right: -4px;
+                    top: 1px;
+                    font-size: 1rem;
+                    font-weight: 100;
+                    border-radius: 50%;
+                    width: 14px;
+                    line-height: 14px;
+                    padding: 0;
+                }
+            }
+        }
+    }
+	.your-items {
+        .card-content {
+            background: white;
+            border-bottom: 1px solid #ccc;
+        }
+        .card-header {
+            background: white;
+            border-bottom: 1px solid #ccc;
+        }
+        .card {
+            width: auto;
+            margin: 6px;
+        }
+        .img-box {
+            width: 100%;
+            max-width: 60px;
+            height: 75px;
+            position: relative;
+            img {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                max-height: 100%;
+                max-width: 100%;
+                left: 0;
+                right: 0;
+            }
+        }
+        h4 {
+            font-size: 1.2rem !important;
+            font-weight: 500 !important;
+            letter-spacing: 1px;
+            line-height: 1.5;
+            height: 34px;
+            overflow: hidden;
+        }
+        .rate {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            margin-bottom: -5px;
+            .price-box {
+                margin-right: auto;
+                width: 60%;
+                .price {
+                    padding-left: 10px;
+                    position: relative;
+                    display: block;
+                    font-weight: 700;
+                    font-size: 1.3rem;
+                    &.text-light {
+                        font-weight: 400;
+                        text-decoration: line-through;
+                    }
+                    .rupee-icon {
+                        width: 7px;
+                        position: absolute;
+                        top: 3.5px;
+                        left: 0px;
+                    }
+                }
+            }
+            p {
+                font-size: 1.3rem;
+                font-weight: 500 !important;
+                margin: 0 0 0 auto;
+                color: #000;
+                display: flex;
+                align-items: center;
+                span {
+                    
+                    position: relative;
+                    margin-left: auto;
+                    display: flex;
+                    align-items: center;
+                    .icon {
+                        min-width: 3rem;
+                        margin-top: 2px;
+                        text-align: center;
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+        .card-bottom {
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+            letter-spacing: 1px;
+            .small {
+                margin-left: auto;
+                font-weight: 500;
+                font-size: 1.1rem;
+                padding: 4px 10px;
+            }
+        }
+    }
+    .text-light {
+        text-decoration: line-through;
+        color: #b3b3b3 !important;
+    }
+}

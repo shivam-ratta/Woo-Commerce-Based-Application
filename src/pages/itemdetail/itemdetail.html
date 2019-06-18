@@ -1,0 +1,105 @@
+<ion-header>
+    <ion-navbar> <button ion-button menuToggle> <img src="assets/imgs/ic_menu.png"> </button>
+        <ion-title *ngIf="product">
+            <p [innerHTML]="product.categories[0].name"></p>
+            <div class="icon-box" (click)="cartPage()">
+                <img src="assets/imgs/ic_my_cart.png">
+                <ion-badge>{{cartTotal}}</ion-badge>
+            </div>
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content class="bg-light">
+    <div *ngIf="product" class="img-section shadow-bottom" text-center>
+        <div class="img-box"> <img *ngIf="imageToDisplay" data-src="{{imageToDisplay}}"> <img *ngIf="!imageToDisplay"
+                src="assets/imgs/veg-1.png"> </div>
+        <div *ngIf="product.images && product.images.length" class="tab-btn-box">
+            <div class="tab-btn"> <img data-src="{{product.images[0].src}}" (click)="showImage(product.images[0].src)">
+            </div>
+            <div *ngIf="product.images.length > 1" class="tab-btn"> <img data-src="{{product.images[1].src}}" (click)="showImage(product.images[1].src)">
+            </div>
+            <div *ngIf="product.images.length > 2" class="tab-btn">
+                <img data-src="{{product.images[2].src}}" (click)="showImage(product.images[2].src)"> </div>
+        </div>
+        <div class="d-flex" style="align-items: stretch;"> <span class="product_name">{{product.name}}</span> <span
+                class="icon" item-end>
+                <ion-icon name="share-alt" (click)="shareProduct(product)"></ion-icon>
+            </span> </div>
+    </div>
+    <!-- Variations start -->
+    <div *ngIf="productVariations && productVariations.length" class="your-items" padding-top>
+        <ion-card-header>
+            <p>{{ 'variations' | translate }}</p>
+        </ion-card-header>
+        <ion-card-content *ngFor="let item of productVariations">
+            <ion-row>
+                <ion-col col-3>
+                    <div *ngIf="item.images && item.images.length" class="img-box"> <img data-src="{{item.images[0].src}}">
+                    </div>
+                    <div *ngIf="!item.images || !item.images.length" class="img-box"> <img src="assets/imgs/suit_PNG8132.png">
+                    </div>
+                </ion-col>
+                <ion-col col-9>
+                    <h4>{{item.name}}</h4>
+                    <div class="rate">
+                        <div style="display: flex;" class="price-box">
+                            <div *ngIf="item.regular_price != item.sale_price" class="price text-light" padding-right
+                                [innerHTML]="item.regular_price_html"> </div>
+                            <div class="price text-sky" [innerHTML]="item.sale_price_html"> </div>
+                        </div>
+                        <p text-right class="card-bottom">
+                            <button ion-button class="small button btn-round bg-green" text-right (click)="buyVariation(item)">{{
+                                'buy_now' | translate }}</button> </p>
+                    </div>
+                    <p class="card-bottom">
+                        <button ion-button class="small button btn-round" text-right (click)="addVariation(item)">{{
+                            'add_to_cart' | translate }}</button> </p>
+                </ion-col>
+            </ion-row>
+        </ion-card-content>
+    </div>
+    <!-- Variations end -->
+    <div *ngIf="product" class="about-section shadow-bottom bg-white">
+        <h3>{{
+            'about_product' | translate }}</h3>
+        <p [innerHTML]="product.description"> </p>
+    </div>
+    <ion-list>
+        <ion-list-header> Related Products </ion-list-header>
+        <ion-row *ngFor="let products of related">
+            <ion-col col-6 *ngFor="let pro of products">
+                <ion-card>
+                    <ion-card-header>
+                        <h5 (click)="itemdetailPage(pro)">{{pro.name}}</h5>
+                        <!-- <small class="text-light">Grocer market</small> -->
+                        <div *ngIf="pro.images && pro.images.length" class="img-box" (click)="itemdetailPage(pro)">
+                            <img data-src="{{pro.images[0].src}}">
+                        </div>
+                        <div *ngIf="pro.images == null || pro.images.length == 0" class="img-box" (click)="itemdetailPage(pro)">
+                            <img src="assets/imgs/suit_PNG8132.png"> </div>
+                    </ion-card-header>
+                    <ion-card-content>
+                        <p *ngIf="pro.type =='simple' && pro.regular_price!=pro.sale_price" class="price text-light mr-5"
+                            [innerHTML]="pro.regular_price_html"></p>
+                        <p *ngIf="pro.type =='simple'" [innerHTML]="pro.sale_price_html"></p>
+                        <p *ngIf="pro.type =='variable'" [innerHTML]="pro.price_html"></p>
+                        <div *ngIf="pro.type =='simple'" class="btn text-white" (click)="addToCart2(pro)">{{ 'add' |
+                            translate }}</div>
+                    </ion-card-content>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-list>
+    <div *ngIf="product && product.type == 'simple'" style="height: 60px"></div>
+</ion-content>
+<div *ngIf="product && product.type == 'simple'" class="price-section shadow-bottom bg-white">
+    <div class="d-flex">
+        <div *ngIf="product.regular_price != product.sale_price" class="price text-light" padding-right [innerHTML]="product.regular_price_html">
+        </div>
+        <p class="d-flex" [innerHTML]="product.sale_price_html">
+        </p>
+        <div class="d-flex btn-grup text-white bg-thime green-shadow" style="font-size: 1.8rem;                font-weight: 400;                text-align: center;                border-radius: 5px;                line-height: 3.5rem;				padding: .2rem 1.5rem"
+            (click)="buyNow()"> {{ 'buy_now' | translate }} </div> <button ion-button class="small button btn-round"
+            text-right (click)="addVariation(product)">{{'add_to_cart' | translate }}</button>
+    </div>
+</div>

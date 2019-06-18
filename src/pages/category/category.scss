@@ -1,0 +1,85 @@
+page-category {
+    .bg-light {
+        background: #fbfbfb !important;
+    }
+    .all-products {
+        margin-top: 1rem;
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+        display: flex;
+        background: $white-color;
+        align-items: stretch;
+        .segment {
+            display: block;
+            width: 40vw;
+            .segment-button {
+                width: 100%;
+                text-align: left;
+                color: #9b9b9b;
+                border: none !important;
+                border-radius: 0 !important;
+                background: #fbfbfb;
+                position: relative;
+                z-index: 1;
+                opacity: 1;
+                line-height: normal;
+                white-space: normal;
+                text-transform: none;
+                font-size: 1.2rem;
+                font-weight: 500;
+                padding: 15px 20px;
+                height: auto;
+                &.active,
+                &.segment-activated {
+                    color: $bg-color;
+                    font-weight: 600 !important;
+                    background: $white-color;
+                    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15) !important;
+                    z-index: 999;
+                }
+            }
+        }
+    }
+    .all-items {
+        width: 100%;
+        margin-left: auto;
+        box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+        position: relative;
+        z-index: 99;
+        .list {
+            margin-top: 0 !important;
+            .item:first-child {
+                display: none;
+            }
+        }
+        p {
+            font-size: 1.3rem;
+            //            position: relative;
+            display: flex;
+            align-items: center;
+            color: #5b5b5b;
+            font-weight: 500;
+            padding: 10px 4px 0px;
+            span {
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                width: 160px;
+            }
+            ion-icon {
+                color: #e7e7e7 !important;
+                font-size: 18px;
+                margin-left: auto;
+                min-width: 30px;
+                text-align: center  !important;
+            }
+        }
+        .item-block {
+            .item-inner {
+                border: none !important;
+            }
+        }
+    }
+    .tabs-contant {
+        background: #fbfbfb;
+    }
+}

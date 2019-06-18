@@ -1,0 +1,92 @@
+page-wishlist {
+    .card {
+        margin: 5px;
+        border-radius: 5px;
+        width: calc(100% - 10px);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+        .mr-5 {
+            margin-right: 8px;
+        }
+        .card-content {
+            padding-right: 5px !important;
+            padding-top: 5px !important;
+            padding-bottom: 5px !important;
+            .img-box {
+                //                height: 90px;
+                width: 100%;
+                max-width: 60px;
+                margin: 0 auto;
+                img {
+                    //                    width: 100% !important;
+                    //                    height: 100% !important;
+                }
+            }
+            h4 {
+                //                font-size: 1.2rem !important;
+                font-weight: 500 !important;
+                letter-spacing: 1px;
+                position: relative;
+                padding-right: 10px;
+                .icon {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+            }
+            .rateing {
+                //                display: flex;
+                align-items: center;
+                margin-top: 7px;
+                p {
+                    font-size: 1.2rem;
+                    width: 80% !important;
+                    font-weight: 300 !important;
+                }
+                .price {
+                    //width: 50px;
+                    padding-left: 10px;
+                    position: relative;
+                    display: block;
+                    font-weight: 600;
+                    font-size: 1.1rem;
+                    margin-top: 4px;
+                    &.text-light {
+                        font-weight: 400;
+                        text-decoration: line-through;
+                    }
+                    .rupee-icon {
+                        width: 6px !important;
+                        position: absolute;
+                        top: 3px;
+                        left: 0px;
+                    }
+                }
+                .small-text {
+                    font-size: 1rem;
+                    margin-left: 5px;
+                }
+            }
+            .card-btn {
+                small {
+                    width: 49px;
+                    text-align: center;
+                    display: inline-block;
+                    line-height: 19px;
+                    border-radius: 3px;
+                    font-size: 1rem;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+    @media (max-width: 350px) {
+        .rateing {
+            p {
+                font-size: 1rem !important;
+            }
+        }
+        h4 {
+            font-size: 1.1rem !important;
+        }
+    }
+}

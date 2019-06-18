@@ -1,0 +1,40 @@
+<ion-header class="bg-thime">
+    <ion-navbar>
+        <ion-title>Vegetable & Fruits
+            <div class="icon-box">
+                <img src="assets/imgs/search.png" (click)="searchPage()">
+                <img src="assets/imgs/ic_my_cart.png" (click)="cartPage()">
+            </div>
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content class="bg-light">
+    <div class="d-flex">
+        <p>410 items found</p>
+        <div class="icon-box">
+            <ion-icon name="ios-swap-outline" class="icon" (click)="shortPage()"><span>Sort by</span></ion-icon>
+            <ion-icon name="md-funnel" class="icon" (click)="filterPage()"><span>Filter</span></ion-icon>
+        </div>
+    </div>
+    <ion-row>
+        <ion-col col-6 *ngFor="let vegetableitem of vegetableitems">
+            <ion-card (click)="itemdetailPage()">
+                <ion-card-header>
+                    <h5 [innerHTML]="vegetableitem.names"></h5>
+                    <small class="text-light" [innerHTML]="vegetableitem.market"></small>
+                    <div class="img-box">
+                        <img [src]="vegetableitem.image">
+                    </div>
+                </ion-card-header>
+                <ion-card-content>
+                    <p><span [innerHTML]="vegetableitem.prices"></span> $<small>per kg</small>
+                        <ion-icon name="md-arrow-dropdown"></ion-icon>
+                    </p>
+                    <div class="btn text-white">Add</div>
+                </ion-card-content>
+            </ion-card>
+        </ion-col>
+    </ion-row>
+</ion-content>

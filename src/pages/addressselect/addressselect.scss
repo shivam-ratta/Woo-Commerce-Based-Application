@@ -1,0 +1,38 @@
+page-addressselect {
+    .address-section {
+        width: 100%;
+        .card {
+            width: auto;
+            margin: 0;
+            .addres-detail {
+                padding-left: 2rem;
+                h3 {
+                    font-size: 1.3rem;
+                    font-weight: 500;
+                    color: #000;
+                    display: flex;
+                    align-items: center;
+                    .icon-position {
+                        position: absolute;
+                        margin-left: -2rem;
+                        margin-top: 1px;
+                    }
+                    span {
+                        margin-left: auto;
+                        color: #39c526;
+                        .icon {
+                            margin-left: 5px;
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+                p {
+                    font-size: 1.1rem;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    color: #000;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,81 @@
+page-filter {
+    .group {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        .type-filter,
+        .size-filter {
+            width: 100%;
+            overflow: auto;
+            background: $white-color;
+            span {
+                background: #e3e3e3;
+                display: inline-block;
+                margin-left: 1rem;
+                line-height: 4rem;
+                padding: 0 2rem;
+                font-size: 1.1rem;
+                font-weight: 600;
+                border-radius: 5px;
+                &.active {
+                    background: $bg-color;
+                    color: $white-color;
+                }
+            }
+        }
+        .size-filter {
+            margin-bottom: .5rem;
+            .slid-container {
+                width: 71rem;
+                padding: 1.5rem 0;
+                span {
+                    width: 75px;
+                    text-align: center;
+                }
+            }
+        }
+        .type-filter {
+            .slid-container {
+                width: 52rem;
+                padding: 1.5rem 0;
+                span {
+                    padding: 0 1rem;
+                    border-radius: 50px;
+                    line-height: 2.2rem;
+                    width: 90px;
+                    text-align: center;
+                }
+            }
+        }
+        .action {
+            background: $white-color;
+            align-items: center;
+            .col {
+                p {
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    ion-icon {
+                        font-size: 2.8rem;
+                        width: 3rem;
+                        height: 3rem;
+                        border: 1px solid #000 !important;
+                        border-radius: 50%;
+                        line-height: 3rem;
+                    }
+                }
+            }
+            .active {
+                color: #0091ea;
+            }
+            .col {
+                padding: 0 !important;
+            }
+        }
+    }
+    .content {
+        background: rgba(0, 0, 0, 0.5);
+        .scroll-content {
+            overflow: hidden;
+        }
+    }
+}

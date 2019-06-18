@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+      <ion-title text-center>Verification</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="form" padding-left padding-right>
+    <div id="recaptcha-container"></div>
+    <p text-center>Please enter your verification code <br/>sent on +{{dialCode}} {{registerRequest.username}}</p>
+    <ion-list>
+      <ion-item>
+        <ion-label>OTP</ion-label>
+        <ion-input type="number" text-right placeholder="Please enter your otp" [(ngModel)]="otp"></ion-input>
+      </ion-item>
+    </ion-list>
+    <button ion-button full class="bg-thime btn-round btn-text"  (click)="verify()" [disabled]="otpNotSent || otp==''">
+      Verify       
+    </button>
+    <ion-item no-lines no-margin no-padding>
+      <button ion-button (click)="sendOTP()" clear  item-start (click)="sendOTP()" [disabled]="!resendCode"> Resend </button>
+      <ion-note item-end>
+        <ng-container *ngIf="minutes==0; else minuteTemplate">
+          00
+        </ng-container>
+        <ng-template #minuteTemplate>
+          {{minutes}}
+        </ng-template>:
+        <ng-container *ngIf="seconds==0; else secondTemplate">
+          00
+        </ng-container>
+        <ng-template #secondTemplate>
+          {{seconds}}
+        </ng-template> min left</ion-note>
+    </ion-item>
+  </div>
+</ion-content>

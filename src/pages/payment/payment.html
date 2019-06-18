@@ -1,0 +1,51 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon class="menu-icon">
+                <img src="assets/imgs/ic_menu.png">
+            </ion-icon>
+        </button>
+        <ion-title>{{ 'pay_now' | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content radio-group class="bg-light">
+    <ion-row text-center class="status">
+        <ion-col class="complate">
+            <ion-icon name="ios-checkmark-circle"></ion-icon>
+            <span>{{ 'confirm_order_tab_title_1' | translate }}</span>
+        </ion-col>
+        <ion-col class="processing">
+            <ion-icon name="ios-checkmark-circle"></ion-icon>
+            <span>{{ 'confirm_order_tab_title_2' | translate }}</span>
+        </ion-col>
+        <ion-col class="panding">
+            <ion-icon name="md-radio-button-off"></ion-icon>
+            <span>{{ 'confirm_order_tab_title_3' | translate }}</span>
+        </ion-col>
+    </ion-row>
+
+    <ion-card>
+        <p class="heading">{{ 'pay_method' | translate }}</p>
+      
+
+        <ion-card-content>
+            <label ion-item >
+                <ion-label>Pay On COD</ion-label>
+                <ion-radio (click)="payCOD()"></ion-radio>
+            </label>
+        </ion-card-content>
+
+        <ion-card-content>
+            <label ion-item >
+                <ion-label>Atom Payment Gateway</ion-label>
+                <ion-radio (click)="payAtom()"></ion-radio>
+            </label>
+        </ion-card-content>
+    </ion-card>
+    <div class="spacebar"></div>
+    <div class="btn-padding btn-fisx-bottom">
+        <button ion-button full class="bg-green btn-round green-shadow btn-text" (click)="placedPage()">{{ 'continue' | translate }}
+        </button>
+    </div>
+</ion-content>

@@ -1,0 +1,198 @@
+page-search {
+    .d-flex {
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .text-light {
+        text-decoration: line-through;
+        color: #b3b3b3 !important;
+    }
+    .searchbar-section {
+        -webkit-box-shadow: 0 2px 7px #cdcdcd;
+        box-shadow: 0 2px 10px #cdcdcd;
+        position: relative;
+        background: #fff;
+        .searchbar {
+            padding: 0px 8px;
+            padding-right: 0;
+            border-bottom: none !important;
+            background: none !important;
+            &.searchbar-ios {
+                padding: 16px 8px 0;
+                +.close-icon {
+                    margin-top: 13px;
+                }
+            }
+            .searchbar-input {
+                border-radius: 5px !important;
+                font-size: 1.2rem;
+                font-weight: 300;
+                line-height: 2.8rem;
+                padding: 6px 43px;
+                box-shadow: none !important;
+            }
+            .searchbar-input-container {
+                border: none !important;
+            }
+            .searchbar-search-icon {
+                left: 1px;
+                top: 0px;
+                width: 16px;
+                height: 16px;
+                background-position: center;
+                background-size: cover;
+                bottom: 0;
+                position: absolute;
+                margin: auto;
+                right: auto;
+            }
+            .searchbar-input {
+                height: 4.7rem !important;
+            }
+        }
+        .close-icon {
+            color: #828282;
+            padding-right: 5px;
+            font-size: 2rem !important;
+        }
+    }
+    .card {
+        width: 100% !important;
+        margin: 0 !important;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+        border-radius: 5px !important;
+        .card-header {
+            position: relative;
+            padding: 7px !important;
+            padding-bottom: 0px !important;
+            white-space: normal;
+            h5 {
+                font-size: 1.1rem;
+                font-weight: 600;
+                color: #000;
+                height: 28px;
+                overflow: hidden;
+            }
+            small {
+                font-size: .9rem;
+                display: block;
+            }
+            .img-box {
+                width: 100px;
+                margin: 10px auto;
+                height: 100px;
+                position: relative;
+                img {
+                    position: absolute;
+                    max-width: 100%;
+                    max-height: 100%;
+                    margin: auto;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                }
+            }
+        }
+        .card-content {
+            padding: 0 10px !important;
+            padding-bottom: 6px !important;
+            display: flex;
+            align-items: center;
+            p {
+                font-size: .95rem;
+                margin-right: auto;
+                font-weight: 700;
+                span {
+                    font-weight: 400 !important;
+                }
+            }
+            .btn {
+                margin-left: auto;
+                font-size: .9rem;
+                font-weight: 600;
+                width: 45px;
+                text-align: center;
+                border-radius: 3px;
+                line-height: 19px;
+                background: lighten($bg-color, 10%);
+                background: #4dd711;
+            }
+        }
+    }
+
+    .card.items-box {
+        width: 100% !important;
+        margin: 0 !important;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+        border-radius: 5px !important;
+        .card-header {
+            position: relative;
+            padding: 7px !important;
+            padding-bottom: 0px !important;
+            white-space: normal;
+            display: block;
+            h5 {
+                font-size: 1.1rem;
+                font-weight: 600;
+                color: #000;
+                height: 26px;
+                overflow: hidden;
+            }
+            small {
+                font-size: .9rem;
+                display: block;
+            }
+        }
+        .card-content {
+            padding: 0 10px !important;
+            padding-bottom: 6px !important;
+            display: block;
+            align-items: center;
+            .img-box {
+                width: 100px;
+                margin: 10px auto;
+                height: 100px;
+                position: relative;
+                img {
+                    position: absolute;
+                    max-width: 100%;
+                    max-height: 100%;
+                    margin: auto;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                }
+            }
+            .rateing {
+                display: flex;
+                align-items: center;
+                .btn-star {
+                    width: 80px;
+                    font-size: 9px;
+                    white-space: nowrap;
+                    span {
+                        padding: 3px 5px;
+                        font-size: 9px;
+                        border-radius: 3px;
+                        display: inline-block;
+                    }
+                }
+                .price {
+                    font-size: 10px;
+                    display: flex;
+                    margin-left: auto;
+                    .text-light {
+                        text-decoration: line-through;
+                    }
+                    .text-sky {
+                        margin-left: 5px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
