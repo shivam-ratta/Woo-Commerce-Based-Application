@@ -64,7 +64,7 @@
     "cordova-plugin-firebase-authentication": "^1.1.2",
     "cordova-plugin-globalization": "1.11.0",
     "cordova-plugin-googleplus": "^7.0.1",
-    "cordova-plugin-inappbrowser": "^3.0.0",
+    "cordova-plugin-inappbrowser": "^3.1.0",
     "cordova-plugin-ionic-keyboard": "^2.1.2",
     "cordova-plugin-ionic-webview": "1.2.1",
     "cordova-plugin-multidex": "^0.1.4",
